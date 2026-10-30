@@ -1,0 +1,21 @@
+{
+  "id": "control-en-validation-02",
+  "text": "# Audit sheet\n\nReference: EN-۱۰۰۸۱\n\nAmount: € ۶۳۸۷.۶۱\n\nDate: ۱۷/09/۲۰۲۶\n\nCharacters: œ, æ, ç, é, è, ê, É, À.\n\nQuote: “Exact copy” — item № 5.\n\nRate: ۸۱ %\n\nMeasurements: ± ≤ ≥ × ÷ − ; m².\n\nDigit string: ۴۲۲۰۴۲۰۲۰۴۷۵۵۸۳۹۸۴۶۵",
+  "stop_reason": "eos",
+  "tokens": 158,
+  "seconds": 8.79900097195059,
+  "image_sha256": "d3eef1659ed65c347f16369d8141d2b61485d7db13d14c7002e4a199a776944b",
+  "fidelity_audit": {
+    "requires_review": false,
+    "flags": [],
+    "text_rewritten": false,
+    "image_grounding_verified": false,
+    "raw_characters": 222,
+    "digit_glyph_counts": {
+      "latin": 3,
+      "arabic_indic": 0,
+      "eastern_arabic_indic": 39
+    }
+  },
+  "ground_truth_given_to_model": false
+}

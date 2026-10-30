@@ -1,0 +1,21 @@
+{
+  "id": "en-06",
+  "text": "District Evaluation Advisory Committee (DEAC)\n20102-2013 Meeting Schedule\n\nDates*\n\nWednesday, September 12, 2012\nWednesday, October 10, 2012\nThursday, October 25, 2012\nThursday, November 1, 2012\nWednesday, November 28, 2012\nMonday, December 10, 2012\nMonday, December 17, 2012\nWednesday, January 23, 2013\nWednesday, February 13, 2013\nThursday, March 14, 2013\nWednesday, April 17, 2013\nWednesday, May 15, 2013\nWednesday, June 12, 2013\n\n*Meeting will be held in the Staff Development Training Room\nfrom 3:30 pm – 6:30 pm.",
+  "stop_reason": "eos",
+  "tokens": 221,
+  "seconds": 12.09810035303235,
+  "image_sha256": "346c228b5b325836b4e08b3e6c2f7c4eaa6d3a126462ad0f4a7806a487c49ed3",
+  "fidelity_audit": {
+    "requires_review": false,
+    "flags": [],
+    "text_rewritten": false,
+    "image_grounding_verified": false,
+    "raw_characters": 518,
+    "digit_glyph_counts": {
+      "latin": 92,
+      "arabic_indic": 0,
+      "eastern_arabic_indic": 0
+    }
+  },
+  "ground_truth_given_to_model": false
+}

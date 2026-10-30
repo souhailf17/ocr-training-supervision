@@ -1,0 +1,44 @@
+{
+  "retrieved_on": "2026-10-30",
+  "read_only": true,
+  "logs": [
+    {
+      "job": "q35ocr-20260921-p560-markdown-gpu1-w9-v1",
+      "pod_uid": "242036f7-049a-42c4-8a4e-166d73caad1e",
+      "phase": "Failed",
+      "status": "ok",
+      "path": "results/logs/q35ocr-20260921-p560-markdown-gpu1-w9-v1.txt",
+      "sha256": "fd818e5429f8ec92848000df7a7b0617580565d8e233782fa7e1543af9591c19",
+      "redaction": "URLs and credential-like literals removed before transfer; numeric metric lines unchanged"
+    },
+    {
+      "job": "q35ocr-20260921-p560-markdown-gpu1-w9-r4682-v2",
+      "pod_uid": "47b3bbd2-5030-48cb-987e-442c3b0531b9",
+      "phase": "Succeeded",
+      "status": "ok",
+      "path": "results/logs/q35ocr-20260921-p560-markdown-gpu1-w9-r4682-v2.txt",
+      "sha256": "7eb867aee9f519a895467ea4e9d9a4783c26b93443410d35523753d553966d67",
+      "redaction": "URLs and credential-like literals removed before transfer; numeric metric lines unchanged"
+    },
+    {
+      "job": "q35ocr-20260921-p560-md-final-verify-r4682",
+      "pod_uid": "a802d72d-1c6c-4e81-88a4-5eca304226c1",
+      "phase": "Succeeded",
+      "status": "ok",
+      "path": "results/logs/q35ocr-20260921-p560-md-final-verify-r4682.txt",
+      "sha256": "5380797ed4fbc271073f53ea392e67fab6bc907c70ca9aefa9672e298491db52",
+      "redaction": "URLs and credential-like literals removed before transfer; numeric metric lines unchanged"
+    },
+    {
+      "job": "q35ocr-20260921-p560-corrective-training-1028-v1",
+      "pod_uid": "2790f5c9-df57-451d-b6ff-3318dd4076dc",
+      "phase": "Succeeded",
+      "status": "ok",
+      "path": "results/logs/q35ocr-20260921-p560-corrective-training-1028-v1.txt",
+      "sha256": "d858d20a8145d4b663c5ffadb1b167548090a051de67054a904b778dc83c0d1b",
+      "redaction": "URLs and credential-like literals removed before transfer; numeric metric lines unchanged"
+    }
+  ],
+  "training_updates": 4796,
+  "evaluation_events": 202
+}

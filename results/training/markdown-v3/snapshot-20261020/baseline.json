@@ -1,0 +1,17 @@
+{
+  "phase_step": 0,
+  "phase_samples": 0,
+  "values": {
+    "validation-tables": {
+      "loss": 0.5249685232044733,
+      "supervised_tokens": 67894,
+      "samples": 128
+    },
+    "validation-control": {
+      "loss": 0.0794851977046069,
+      "supervised_tokens": 24557,
+      "samples": 128
+    }
+  },
+  "overall_loss": 0.4066384453870325
+}

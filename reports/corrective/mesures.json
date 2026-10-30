@@ -1,0 +1,546 @@
+{
+  "training_complete_marker": true,
+  "candidate_only": true,
+  "automatically_promoted": false,
+  "initialization": "fresh LoRA on verified original Qwen base; historical checkpoints unchanged",
+  "validation_loss": [
+    {
+      "label": "base-initial",
+      "step": 0,
+      "examples_consumed": 0,
+      "values": {
+        "ar": {
+          "loss": 1.3868891624718254,
+          "supervised_tokens": 20961,
+          "examples": 25
+        },
+        "all": {
+          "loss": 0.6415951587687441,
+          "supervised_tokens": 51175,
+          "examples": 75
+        },
+        "fr": {
+          "loss": 0.12928539146804346,
+          "supervised_tokens": 15782,
+          "examples": 25
+        },
+        "en": {
+          "loss": 0.11936436164564042,
+          "supervised_tokens": 14432,
+          "examples": 25
+        }
+      }
+    },
+    {
+      "label": "epoch-1",
+      "step": 19,
+      "examples_consumed": 300,
+      "values": {
+        "ar": {
+          "loss": 1.3236426289246783,
+          "supervised_tokens": 20961,
+          "examples": 25
+        },
+        "all": {
+          "loss": 0.6114898127368931,
+          "supervised_tokens": 51175,
+          "examples": 75
+        },
+        "fr": {
+          "loss": 0.12088473438659543,
+          "supervised_tokens": 15782,
+          "examples": 25
+        },
+        "en": {
+          "loss": 0.1136582000991598,
+          "supervised_tokens": 14432,
+          "examples": 25
+        }
+      }
+    },
+    {
+      "label": "epoch-2",
+      "step": 38,
+      "examples_consumed": 600,
+      "values": {
+        "ar": {
+          "loss": 1.209046176606804,
+          "supervised_tokens": 20961,
+          "examples": 25
+        },
+        "all": {
+          "loss": 0.5635696377382902,
+          "supervised_tokens": 51175,
+          "examples": 75
+        },
+        "fr": {
+          "loss": 0.1191047193789556,
+          "supervised_tokens": 15782,
+          "examples": 25
+        },
+        "en": {
+          "loss": 0.11212227149134602,
+          "supervised_tokens": 14432,
+          "examples": 25
+        }
+      }
+    }
+  ],
+  "global_eval_loss_relative_change_pct": -12.161176711524618,
+  "generation_checks": [
+    {
+      "epoch": "epoch-1",
+      "id": "ar-02",
+      "stop_reason": "eos",
+      "text": "جامعة نزوى\nكلية العلوم والآداب\nقسم التربية والدراسات الإنسانية\nدراسات عليا / ماجستير\n\nاستمارة توقيع لجنة المناقشة بإجازة الرسالة\n\nاسم الطالبة: جوجخة بنت محمد بن سليم الصوافية\nالتخصص: الإرشاد والتوجيه\nالمعالم الجامعية: 2016/2015\n\n- عنوان الرسالة: \"فاعلية برنامج تدريبي في تنمية بعض المهارات الاجتماعية لدى عينة من أطفال ما قبل المدرسة\"\n\n- تاريخ المناقشة: 8 مارس 2016م\n\nتوقيع لجنة المناقشة\n\n| اسم المناقش | التوقيع |\n| :--- | :--- |\n| أ.د. عبدالرزاق فاضل القيسي | |\n| د. دعاء سعيد حسين | |\n| أ.د. علي مهيدي كاظم | |\n\nب",
+      "reference": "University of Nizwa\n\n\n\nجامعة نزوى\n\nكلية العلوم والآداب\n\nقسم التربية والدراسات الإنسانية\n\nدراسات عليا/ ماجستير\n\nاستمارة توقيع لجنة المناقشة بإجازة الرسالة\n\nاسم الطالبة: جوخة بنت محمد بن سليم الصوافية\n\nالتخصص : الإرشاد والتوجية\n\nالعام الجامعي : 2016/2015\n\n- عنوان الرسالة : \" فاعلية برنامج تدريبي في تنمية بعض المهارات الإجتماعية لدى\n\n\" عينة من أطفال ما قبل المدرسة \"\n\n- تاريخ المناقشة : 8 مارس 2016 م\n\nتوقيع لجنة المناقشة\n\n\n\n| التوقيع | اسم المناقش |\n| --- | --- |\n| (توقيع) | أ.د. عبدالرزاق فاضل القيسي |\n| (توقيع) | د. دعاء سعيد حسين |\n| (توقيع) | أ.د. علي مهدي كاظم |\n\nب\n",
+      "language": "ar",
+      "image_grounding_manually_verified": false,
+      "quality": {
+        "cer": 12.3046875,
+        "wer": 33.333333333333336,
+        "character_errors": 63,
+        "word_errors": 29,
+        "reference_characters": 512,
+        "reference_words": 87
+      }
+    },
+    {
+      "epoch": "epoch-1",
+      "id": "en-06",
+      "stop_reason": "eos",
+      "text": "District Evaluation Advisory Committee (DEAC)\n20102-2013 Meeting Schedule\n\nDates*\n\nWednesday, September 12, 2012\nWednesday, October 10, 2012\nThursday, October 25, 2012\nThursday, November 1, 2012\nWednesday, November 28, 2012\nMonday, December 10, 2012\nMonday, December 17, 2012\nWednesday, January 23, 2013\nWednesday, February 13, 2013\nThursday, March 14, 2013\nWednesday, April 17, 2013\nWednesday, May 15, 2013\nWednesday, June 12, 2013\n\n*Meeting will be held in the Staff Development Training Room\nfrom 3:30 pm – 6:30 pm.",
+      "reference": "# District Evaluation Advisory Committee (DEAC) 20102-2013 Meeting Schedule\n\nDates*\n\nWednesday, September 12, 2012\nWednesday, October 10, 2012\nThursday, October 25, 2012\nThursday, November 1, 2012\nWednesday, November 28, 2012\nMonday, December 10, 2012\nMonday, December 17, 2012\nWednesday, January 23, 2013\nWednesday, February 13, 2013\nThursday, March 14, 2013\nWednesday, April 17, 2013\nWednesday, May 15, 2013\nWednesday, June 12, 2013\n\n*Meeting will be held in the Staff Development Training Room from 3:30 pm —- 6:30 pm.\n",
+      "language": "en",
+      "image_grounding_manually_verified": false,
+      "quality": {
+        "cer": 0.3875968992248062,
+        "wer": 1.2987012987012987,
+        "character_errors": 2,
+        "word_errors": 1,
+        "reference_characters": 516,
+        "reference_words": 77
+      }
+    },
+    {
+      "epoch": "epoch-1",
+      "id": "fr-01",
+      "stop_reason": "eos",
+      "text": "# UN VRP RETROUVÉ NU\n# DANS SA VOITURE\n\nLa police de Grampian, qui patrouillait la portion de l’A93 bloquée par la neige entre Braemar et Spittal of Glenshee, jeudi soir, a repéré une voiture apparemment abandonnée sur le bas-côté, au pied même de la station de ski de Glenshee.\n\nEn s’approchant, les policiers ont découvert le chauffeur inconscient dans son véhicule. Les vêtements appartenant au quadragénaire presque nu étaient éparpillés à bord de la voiture. À côté de lui, sur le siège passager, se trouvaient deux bouteilles de whisky vides.\n\nEn inspectant le coffre de la voiture, les policiers ont vu le mystère s’épaissir ; il contenait en effet deux cartons renfermant 400 brosses à dents, ainsi qu’un grand sac-poubelle noir rempli de cartes postales d’Asie.\n\nL’homme, qui souffrait d’une hypothermie grave, a dû être transporté par hélicoptère à la Royal Infirmary d’Aberdeen. Il a pu être identifié un peu plus tard comme Mr Maxwell Sim, âgé de 48 ans et domicilié à Watford, en Angleterre.\n\n11\nExtrait de la publication",
+      "reference": "# UN VRP RETROUVÉ NU DANS SA VOITURE\n\nLa police de Grampian, qui patrouillait la por-\ntion de l’A93 bloquée par la neige entre Braemar\net Spittal of Glenshee, jeudi soir, a repéré une voi-\nture apparemment abandonnée sur le bas-côté, au\npied même de la station de ski de Glenshee.\n\nEn s’approchant, les policiers ont découvert le\nchauffeur inconscient dans son véhicule. Les vête-\nments appartenant au quadragénaire presque nu\nétaient éparpillés à bord de la voiture. À côté de\nlui, sur le siège passager, se trouvaient deux bou-\nteilles de whisky vides.\n\nEn inspectant le coffre de la voiture, les policiers\nont vu le mystère s’épaissir ; il contenait en effet\ndeux cartons renfermant 400 brosses à dents, ainsi\nqu’un grand sac-poubelle noir rempli de cartes\npostales d’Asie.\n\nL’homme, qui souffrait d’une hypothermie grave,\na dû être transporté par hélicoptère à la Royal\nInfirmary d’Aberdeen. Il a pu être identifié un peu\nplus tard comme Mr Maxwell Sim, âgé de 48 ans\net domicilié à Watford, en Angleterre.\n\n11\n\nExtrait de la publication\n",
+      "language": "fr",
+      "image_grounding_manually_verified": false,
+      "quality": {
+        "cer": 0.7744433688286544,
+        "wer": 4.597701149425287,
+        "character_errors": 8,
+        "word_errors": 8,
+        "reference_characters": 1033,
+        "reference_words": 174
+      }
+    },
+    {
+      "epoch": "epoch-1",
+      "id": "probe-chiffres",
+      "stop_reason": "eos",
+      "text": "٠١٢٣٤٥٦٧٨٩\n٠١٢٣٤٥٦٧٨٩\n0123456789",
+      "reference": "٠١٢٣٤٥٦٧٨٩\n۰۱۲۳۴۵۶۷۸۹\n0123456789",
+      "language": "ar",
+      "image_grounding_manually_verified": false,
+      "quality": {
+        "cer": 31.25,
+        "wer": 33.333333333333336,
+        "character_errors": 10,
+        "word_errors": 1,
+        "reference_characters": 32,
+        "reference_words": 3
+      },
+      "exact_visible_text": false,
+      "digit_counts_reference": {
+        "latin": 10,
+        "arabic_indic": 10,
+        "eastern_arabic_indic": 10
+      },
+      "digit_counts_output": {
+        "latin": 10,
+        "arabic_indic": 20,
+        "eastern_arabic_indic": 0
+      },
+      "missing_glyphs": {
+        "۰": 1,
+        "۱": 1,
+        "۲": 1,
+        "۳": 1,
+        "۴": 1,
+        "۵": 1,
+        "۶": 1,
+        "۷": 1,
+        "۸": 1,
+        "۹": 1
+      }
+    },
+    {
+      "epoch": "epoch-1",
+      "id": "probe-fr-symboles",
+      "stop_reason": "eos",
+      "text": "Procès-verbal\nÉchéance : 31/12/2026\nMontant : 1 234,56 €\nRemise : 15 %\nRéférence : œ, æ, ç, É, À\nMesures : ± ≤ ≥ × ÷ −",
+      "reference": "Procès-verbal\nÉchéance : 31/12/2026\nMontant : 1 234,56 €\nRemise : 15 %\nRéférence : œ, æ, ç, É, À\nMesures : ± ≤ ≥ × ÷ −",
+      "language": "fr",
+      "image_grounding_manually_verified": false,
+      "quality": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "character_errors": 0,
+        "word_errors": 0,
+        "reference_characters": 118,
+        "reference_words": 28
+      },
+      "exact_visible_text": true,
+      "digit_counts_reference": {
+        "latin": 16,
+        "arabic_indic": 0,
+        "eastern_arabic_indic": 0
+      },
+      "digit_counts_output": {
+        "latin": 16,
+        "arabic_indic": 0,
+        "eastern_arabic_indic": 0
+      },
+      "missing_glyphs": {}
+    },
+    {
+      "epoch": "epoch-1",
+      "id": "probe-vide",
+      "stop_reason": "verified_exact_blank",
+      "text": "",
+      "reference": "",
+      "language": "ar",
+      "image_grounding_manually_verified": false,
+      "quality": null,
+      "blank_passed": true
+    },
+    {
+      "epoch": "epoch-2",
+      "id": "ar-02",
+      "stop_reason": "eos",
+      "text": "جامعة نزوى\nكلية العلوم والآداب\nقسم التربية والدراسات الإنسانية\nدراسات عليا / ماجستير\n\nاستمارة توقيع لجنة المناقشة بإجازة الرسالة\n\nاسم الطالبة: جوجخة بنت محمد بن سليم الصوافية\nالخصائص: الإرشاد والتوجيه\nالمعالم الجامعية: 2016/2015\n\n- عنوان الرسالة: \"فاعلية برنامج تدريبي في تنمية بعض المهارات الاجتماعية لدى عينة من أطفال ما قبل المدرسة\"\n\n- تاريخ المناقشة: 8 مارس 2016م\n\nتوقيع لجنة المناقشة\n\n| اسم المناقش | التوقيع |\n| :--- | :--- |\n| أ.د. عبدالرزاق فاضل القيسي | |\n| د. دعاء سعيد حسين | |\n| أ.د. علي مهيدي كاظم | |\n\nب",
+      "reference": "University of Nizwa\n\n\n\nجامعة نزوى\n\nكلية العلوم والآداب\n\nقسم التربية والدراسات الإنسانية\n\nدراسات عليا/ ماجستير\n\nاستمارة توقيع لجنة المناقشة بإجازة الرسالة\n\nاسم الطالبة: جوخة بنت محمد بن سليم الصوافية\n\nالتخصص : الإرشاد والتوجية\n\nالعام الجامعي : 2016/2015\n\n- عنوان الرسالة : \" فاعلية برنامج تدريبي في تنمية بعض المهارات الإجتماعية لدى\n\n\" عينة من أطفال ما قبل المدرسة \"\n\n- تاريخ المناقشة : 8 مارس 2016 م\n\nتوقيع لجنة المناقشة\n\n\n\n| التوقيع | اسم المناقش |\n| --- | --- |\n| (توقيع) | أ.د. عبدالرزاق فاضل القيسي |\n| (توقيع) | د. دعاء سعيد حسين |\n| (توقيع) | أ.د. علي مهدي كاظم |\n\nب\n",
+      "language": "ar",
+      "image_grounding_manually_verified": false,
+      "quality": {
+        "cer": 12.890625,
+        "wer": 33.333333333333336,
+        "character_errors": 66,
+        "word_errors": 29,
+        "reference_characters": 512,
+        "reference_words": 87
+      }
+    },
+    {
+      "epoch": "epoch-2",
+      "id": "ar-08",
+      "stop_reason": "eos",
+      "text": "فصل\n\n(1) منزلة الزهد\n\nومن منازل «إياك نعبد وإياك نستعين» منزلة «الزهد».\n\nقال الله تعالى «ما عَندُكُم ينفد وما عَندَ الله عَندُ باقٍ» وقال تعالى «اعلموا أنما الحياة الدنيا لعبٌ ولهو وزيه، وتكاثر في الأموال والأولاد، وكمل غيث أعجب الكفار بأنهم. ثم يبيح فراها مصفرًا. ثم يكون خطامًا، وفي الآخرة عذاب شديد، ومغفرة من الله ورضوان. وما الحياة الدنيا إلا متاع الغرور» وقال تعالى «إنما مثل الحياة الدنيا كأنها أرزلاء من السَّماء فاختلطت به نبات الأرض - الآية» وقال تعالى «واضحٌ هُم مثل الحياة الدنيا كأنها أرزلاء من السَّماء فاختلطت به نبات الأرض. فأصبح هشيبًا تذروه الرياح - إلى قوله - وخير أمل» وقال تعالى «فقل متاع الدنيا قليل. والآخره خير لمن اتقى» وقال تعالى «بسل تؤثرون الحياة الدنيا. والآخرة خير» وأبقى «ولا تمدن عينيك إلى ما متعنا به أزواجًا منهم زهرة الحياة الدنيا لفتنهم فيه وورزق ربك خير وأبقى» وقال تعالى «إنا جعلنا ما على الأرض زينة لها لنبلوهم أيم أحسن عملاً. وإنا لجاعلون ما عليها صعيدًا جرزا» وقال «ولو لا أن يكون الناس أمة واحدة لجعلنا لمن يكفر بالرحمن سقفاً من فضة - إلى قوله - والآخرة عند ربك للمتقين».\n\n(1) قارن: قوة الفلوق لأي طالب المكي ٢٤٢/١، إحياء علوم الدين لأي حامد الغزالي - كتاب الفقر والزهد ٣٩٨/٥ - ٢٤٩، الرسالة القشيرية ص ٥٥ - ٥٧، عوارف المعارف للسهروردي ص ٤٨٩ - ٤٩١، التعريف للكلاذاني ٩٣ - ٩٤، نشأة التصوف الإسلامي لإبراهيم يسبوني ص ١٢٩ - ١٣٨، التصوف الإسلامي في الأدب والأخلاق للدكتور زكي مبارك ١١٦/١ - ١١٧، التصوف الثروة الروحية في الإسلام للدكتور «أبو العلا عفيفي» ص ٩٨ - ١٠٤، أفضى قارن: طريق المجرئين لابن القيم ص ٣٢٠ - ٣٢٥.\n\n(2) سورة النحل الآية ٩٦.\n\n(3) سورة الحديدي الآية ٢٠.\n\n(4) سورة يونس الآية ٢٤.\n\n(5) سورة الكهف الآية ٤٥ - ٤٦.\n\n(6) سورة النساء الآية ٧٧.\n\n(7) سورة الأعلى الآية ١٦.\n\n(8) سورة طه الآية ١٣١.\n\n(9) سورة الكهف الآية ٧.\n\n(10) سورة الزخرف الآيات ٣٣ - ٣٥.\n\n11",
+      "reference": "# فصل\nمنزلة الزُّهْد (١)\n\nومن منازل «إياك نعبد وإياك نستعين» منزلة «الزهد» .\n\nقال الله تعالى ﴿مَا عِندَكُمْ يَنفَدُ وَمَا عِندَ اللَّهِ بَاقٍ﴾(٢) وقال تعالى ﴿اعْلَمُوا أَنَّمَا الحَيَاةُ\nالدُّنْيَا لَعِبٌ وَلَهْوٍ وَزِينَةٌ ، وَتَفَاخُرٌ بينكم ، وَتَكَاثُرٌ فِي الأَمْوَالِ وَالأَولادِ. كَمَثَلِ غَيْثٍ\nأَعْجَبَ الكُفَّارَ نَبَاتُهُ . ثم يَهِيجُ فَتَراهُ مُصْفَرّاً . ثم يكون حُطَاماً ، وفي الآخرة عذَابٌ\nشَديد، وَمغفرةٌ من الله ورِضوان . وما الحياة الدنيا إلا متَاعُ الغُرورِ ﴾(٣) وقال تعالى ﴿إِنَّمَا\nمَثَلُ الحَيَاةِ الدُّنْيا كَمَاءٍ أَنزَلْنَاه من السَّمَاءِ فَاخْتَلَطَ به نبَاتُ الأرض ـ الآيَةَ ﴾(٤) وقال تعالى\n﴿وَاضْرِبْ لَهُمْ مَثَلَ الحَيَاةِ الدُّنْيا كَمَاءٍ أَنزَلْنَاه من السَّمَاءِ فَاخْتَلَطَ به نبَاتُ الأرضِ. فَأَصبَحَ\nهَشِيماً تَذْرُوه الرِّياح ـ إلى قوله ـ وخَيرٌ خَيرٌ أَمَلاً﴾(٥) وقال تعالى ﴿قُلْ مَتَاعُ الدُّنْيا قَلِيل .\nوالآخِرةُ خَيرٌ لِمَنِ اتَّقَى﴾(٦) وقال تعالى ﴿بَلْ تُؤْثِرُونَ الحَيَاةَ الدُّنْيا . والآخِرةُ خَيرٌ\nوأَبْقَى﴾(٧) وقال ﴿وَلا تَمُدَّنَّ عَينَيكَ إِلى ما مَتَّعنا به أزْواجاً منهم زَهْرَةَ الحَيَاة الدُّنْيا لِنَفِتنَهم\nفِيه ورِزُق رَبِكَ خير وأبْقَى﴾(٨) وقال تعالى ﴿إِنَّا جَعَلنا ما عَلَى الأَرضِ زِينة لَها لِنَبْلوهم\nأَيُّهم أَحْسَن عَمَلاً. وإِنَّا لجَاعِلُون ما عَليها صَعِيداً جُرُزاً﴾(٩) وقال ﴿وَلولا أَن يَكون\nالناسُ أُمَةً واحدة لجَعَلْنَا لِمن يكفُر بالرَّحْمن لبيوتِهم سُقُفاً مِن فِضة ـ إلى قوله ـ والآخرة\n\nعند ربك للمتقين ﴾(١٠).\n\n(1) قارن: قوت القلوب لأبي طالب المكي 242/1 - 271، إحياء علوم الدين لأبي حامد الغزالي - كتاب\n\nـ ٥ / ٢٣٩٨ - ٢٤٩٠ ، الرسالة القشيرية ص ٥٥ - ٥٧ ، عوارف المعارف للسهروردي . الزهد ـ الفقر\n\nالتعرف للكلاباذي ص ٩٣ - ٩٤ . . نشأة التصوف الإسلامي لإبراهيم بسيوني ص ٤٨٩ - ٤٩١\n\nوالأخلاق في الأدب الإسلامي التصوف ، ١٣٨ - ١٢٩ التصوف ، ١١٦/١ - ١١٧ للدكتور زكي مبارك\n\nالروحية في الإسلام للدكتور «أبو العلا عفيفي» ص 98 - 104 . أيضاً قارن : طريق الهجرتين\n\nلابن القيم ص ٣٢٠ - ٣٢٥ .\n\n(٢) سورة النحل الآية ٩٦.\n\n(۳) سورة الحديد الآية ٢٠.\n\n(٤) سورة يونس الآية ٢٤.\n\n(٥) سورة الكهف الآية ٤٥ - ٤٦.\n\n(٦) سورة النساء الآية ٧٧.\n\n(٧) سورة الأعلى الآية ١٦ .\n\n(۸) سورة طه الآية ۱۳۱.\n\n(٩) سورة الكهف الآية ٧ و ٨ .\n\n(١٠) سورة الزخرف الآيات ٣٣ - ٣٥.\n\n”\n",
+      "language": "ar",
+      "image_grounding_manually_verified": false,
+      "quality": {
+        "cer": 29.174664107485604,
+        "wer": 61.49425287356322,
+        "character_errors": 608,
+        "word_errors": 214,
+        "reference_characters": 2084,
+        "reference_words": 348
+      }
+    },
+    {
+      "epoch": "epoch-2",
+      "id": "ar-14",
+      "stop_reason": "eos",
+      "text": "# الْحَشْرُ\n\nبِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ\n\nسَبِّحِ ٱللَّهُ مَآ فِى ٱلسَّمَٰوَٰتِ وَمَآ فِى ٱلْأَرْضِ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ\n\nهُوَ ٱلَّذِىٓ أَخْرَجَ ٱلَّذِينَ كَفَرُوا۟ مِن أَهْلِ ٱلْكِتَٰبِ مِن دِيَارِهِمْ\n\nإِلَآ ٱلْحَشْرِۖ مَآ ظَنَنُّمْ أَن يُجْرُوا۟ وَظَنُّوا۟ أَنَّهُمْ مَآ نَعْتَهُمْ\n\nحَصُوفُ ٱرْءُهُم مِّنَ ٱللَّهِ فَآتَهُمُ ٱللَّهُ مِّنۡ حَيْثُ لَمْ يَحْتَسِبُوا۟ وَقَدَفَ\n\nفِى قُلُوبِهِمُ ٱلرُّعْبَ يُخْرِجُونَ لِيُوَفَّهُمْ بِأَدْيِهِمْ وَآيَٰتِ\n\nٱلْمُؤْمِنِينَ فَاغْتَبْرُوا۟ يَأُولِى ٱلْأَبْصَٰرِۖ وَلَوْلاَ أَن كَتَبَ ٱللَّهُ\n\nعَلَيْهِمُ ٱلْجَلَآءَ لَعَذَّبَهُمُ فِى ٱلدُّنْيَا وَلَهُمُ فِى ٱلْآخِرَةِ عَذَابُ\n\nٱلنَّارِۖ ذَٰلِكَ بِأَنَّهُمْ شَآقُوا۟ ٱللَّهِ وَرَسُولَهُۥۖ وَشَآقَ ٱللَّهُ فِى قَانِ\n\nٱللَّهُ شَدِيدُ ٱلْعِقَابِۖ مَآ قَطَعْتُمْ مِّن لِّينَةٍ أَوْ تَرَكْتُمُوهَا",
+      "reference": "الْحَشْرُ\n\nبِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ\n\nسَبَّحَ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۖ وَهُوَ الْعَزِيزُ الْحَكِيمُ ‎﴿١﴾\nهُوَ الَّذِي أَخْرَجَ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ مِن دِيَارِهِمْ\nلِأَوَّلِ الْحَشْرِ ۚ مَا ظَنَنتُمْ أَن يَخْرُجُوا ۖ وَظَنُّوا أَنَّهُم مَّانِعَتُهُمْ\nحُصُونُهُم مِّنَ اللَّهِ فَأَتَاهُمُ اللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا ۖ وَقَذَفَ\nفِي قُلُوبِهِمُ الرُّعْبَ ۚ يُخْرِبُونَ بُيُوتَهُم بِأَيْدِيهِمْ وَأَيْدِي\nالْمُؤْمِنِينَ ۖ فَاعْتَبِرُوا يَا أُولِي الْأَبْصَارِ ‎﴿٢﴾ وَلَوْلَا أَن كَتَبَ اللَّهُ\nعَلَيْهِمُ الْجَلَاءَ لَعَذَّبَهُمْ فِي الدُّنْيَا ۖ وَلَهُمْ فِي الْآخِرَةِ عَذَابُ\nالنَّارِ ‎﴿٣﴾ ذَٰلِكَ بِأَنَّهُمْ شَاقُّوا اللَّهَ وَرَسُولَهُ ۖ وَمَن يُشَاقِّ اللَّهَ فَإِنَّ\nاللَّهَ شَدِيدُ الْعِقَابِ ‎﴿٤﴾ مَا قَطَعْتُم مِّن لِّينَةٍ أَوْ تَرَكْتُمُوهَا\n",
+      "language": "ar",
+      "image_grounding_manually_verified": false,
+      "quality": {
+        "cer": 20.73170731707317,
+        "wer": 77.22772277227723,
+        "character_errors": 170,
+        "word_errors": 78,
+        "reference_characters": 820,
+        "reference_words": 101
+      }
+    },
+    {
+      "epoch": "epoch-2",
+      "id": "blank-ar-validation-00",
+      "stop_reason": "eos",
+      "text": "",
+      "reference": "",
+      "language": "ar",
+      "image_grounding_manually_verified": false,
+      "quality": null,
+      "blank_passed": true
+    },
+    {
+      "epoch": "epoch-2",
+      "id": "blank-en-validation-00",
+      "stop_reason": "eos",
+      "text": "",
+      "reference": "",
+      "language": "en",
+      "image_grounding_manually_verified": false,
+      "quality": null,
+      "blank_passed": true
+    },
+    {
+      "epoch": "epoch-2",
+      "id": "blank-fr-validation-00",
+      "stop_reason": "eos",
+      "text": "",
+      "reference": "",
+      "language": "fr",
+      "image_grounding_manually_verified": false,
+      "quality": null,
+      "blank_passed": true
+    },
+    {
+      "epoch": "epoch-2",
+      "id": "control-ar-validation-01",
+      "stop_reason": "token_limit",
+      "text": "بيان إداري\n\nالرقم المرجعي: AR-42404\n\nالقيمة: ٧٥,٠٠٠,٧٥.د.م\n\nالتاريخ: 26/09/24\n\nالبيان: نص عربي بالتشكيل.\n\nالرموز: «، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟، ؟",
+      "reference": "# بيان إداري\n\nالرقم المرجعي: AR-٤٢٤٠٤\n\nالقيمة: ٨٧٠٠٫٧٥ د.م.\n\nالتاريخ: ٢٤/09/٢٠٢٦\n\nالبيان: نَصٌّ عَرَبِيٌّ بِالتَّشْكِيلِ.\n\nالرموز: « » ، ؛ ؟ ﴿ ﴾ ﷺ.\n\nالنسبة: ١٧ %\n\nالقياسات: ± ≤ ≥ × ÷ − ; m².\n\nسلسلة أرقام: ٤٣٨٧٠٢٥٢٩٨٤٩٨٩٩٣٦٨٤٨\n",
+      "language": "ar",
+      "image_grounding_manually_verified": false,
+      "quality": {
+        "cer": 1382.3255813953488,
+        "wer": 2621.0526315789475,
+        "character_errors": 2972,
+        "word_errors": 996,
+        "reference_characters": 215,
+        "reference_words": 38
+      },
+      "exact_visible_text": false,
+      "digit_counts_reference": {
+        "latin": 2,
+        "arabic_indic": 39,
+        "eastern_arabic_indic": 0
+      },
+      "digit_counts_output": {
+        "latin": 11,
+        "arabic_indic": 7,
+        "eastern_arabic_indic": 0
+      },
+      "missing_glyphs": {
+        "±": 1,
+        "≤": 1,
+        "≥": 1,
+        "×": 1,
+        "÷": 1,
+        "−": 1,
+        "²": 1,
+        "٠": 2,
+        "١": 1,
+        "٢": 6,
+        "٣": 2,
+        "٤": 7,
+        "٦": 2,
+        "٧": 2,
+        "٨": 6,
+        "٩": 4
+      }
+    },
+    {
+      "epoch": "epoch-2",
+      "id": "control-en-validation-02",
+      "stop_reason": "eos",
+      "text": "# Audit sheet\n\nReference: EN-۱۰۰۸۱\n\nAmount: € ۶۳۸۷.۶۱\n\nDate: ۱۷/09/۲۰۲۶\n\nCharacters: œ, æ, ç, é, è, ê, É, À.\n\nQuote: “Exact copy” — item № 5.\n\nRate: ۸۱ %\n\nMeasurements: ± ≤ ≥ × ÷ − ; m².\n\nDigit string: ۴۲۲۰۴۲۰۲۰۴۷۵۵۸۳۹۸۴۶۵",
+      "reference": "# Audit sheet\n\nReference: EN-۱۰۰۸۱\n\nAmount: € ۶۳۸۷.۶۱\n\nDate: ۱۷/09/۲۰۲۶\n\nCharacters: œ, æ, ç, é, è, ê, É, À.\n\nQuote: “Exact copy” — item № 5.\n\nRate: ۸۹ %\n\nMeasurements: ± ≤ ≥ × ÷ − ; m².\n\nDigit string: ۴۲۲۰۴۴۰۲۰۴۷۵۵۸۳۹۸۴۶۵\n",
+      "language": "en",
+      "image_grounding_manually_verified": false,
+      "quality": {
+        "cer": 0.9433962264150944,
+        "wer": 5.0,
+        "character_errors": 2,
+        "word_errors": 2,
+        "reference_characters": 212,
+        "reference_words": 40
+      },
+      "exact_visible_text": false,
+      "digit_counts_reference": {
+        "latin": 3,
+        "arabic_indic": 0,
+        "eastern_arabic_indic": 39
+      },
+      "digit_counts_output": {
+        "latin": 3,
+        "arabic_indic": 0,
+        "eastern_arabic_indic": 39
+      },
+      "missing_glyphs": {
+        "۴": 1,
+        "۹": 1
+      }
+    },
+    {
+      "epoch": "epoch-2",
+      "id": "control-fr-validation-00",
+      "stop_reason": "eos",
+      "text": "# Relevé de mesures\n\nRéférence : FR-57518\n\nMontant : 5983,66 €\n\nÉchéance : 12/09/2026\n\nCaractères : œ, æ, ç, é, è, ê, É, À.\n\nCitation : « Déjà réglé » ; n° 5.\n\nTaux : 47 %\n\nMesures : ± ≤ ≥ × ÷ − ; m².\n\nSuite de chiffres : 95167428475439110818",
+      "reference": "# Relevé de mesures\n\nRéférence : FR-57518\n\nMontant : 5983,66 €\n\nÉchéance : 12/09/2026\n\nCaractères : œ, æ, ç, é, è, ê, É, À.\n\nCitation : « Déjà réglé » ; n° 5.\n\nTaux : 47 %\n\nMesures : ± ≤ ≥ × ÷ − ; m².\n\nSuite de chiffres : 95167428475439110818\n",
+      "language": "fr",
+      "image_grounding_manually_verified": false,
+      "quality": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "character_errors": 0,
+        "word_errors": 0,
+        "reference_characters": 232,
+        "reference_words": 51
+      },
+      "exact_visible_text": true,
+      "digit_counts_reference": {
+        "latin": 42,
+        "arabic_indic": 0,
+        "eastern_arabic_indic": 0
+      },
+      "digit_counts_output": {
+        "latin": 42,
+        "arabic_indic": 0,
+        "eastern_arabic_indic": 0
+      },
+      "missing_glyphs": {}
+    },
+    {
+      "epoch": "epoch-2",
+      "id": "en-06",
+      "stop_reason": "eos",
+      "text": "District Evaluation Advisory Committee (DEAC)\n20102-2013 Meeting Schedule\n\nDates*\n\nWednesday, September 12, 2012\nWednesday, October 10, 2012\nThursday, October 25, 2012\nThursday, November 1, 2012\nWednesday, November 28, 2012\nMonday, December 10, 2012\nMonday, December 17, 2012\nWednesday, January 23, 2013\nWednesday, February 13, 2013\nThursday, March 14, 2013\nWednesday, April 17, 2013\nWednesday, May 15, 2013\nWednesday, June 12, 2013\n\n*Meeting will be held in the Staff Development Training Room\nfrom 3:30 pm – 6:30 pm.",
+      "reference": "# District Evaluation Advisory Committee (DEAC) 20102-2013 Meeting Schedule\n\nDates*\n\nWednesday, September 12, 2012\nWednesday, October 10, 2012\nThursday, October 25, 2012\nThursday, November 1, 2012\nWednesday, November 28, 2012\nMonday, December 10, 2012\nMonday, December 17, 2012\nWednesday, January 23, 2013\nWednesday, February 13, 2013\nThursday, March 14, 2013\nWednesday, April 17, 2013\nWednesday, May 15, 2013\nWednesday, June 12, 2013\n\n*Meeting will be held in the Staff Development Training Room from 3:30 pm —- 6:30 pm.\n",
+      "language": "en",
+      "image_grounding_manually_verified": false,
+      "quality": {
+        "cer": 0.3875968992248062,
+        "wer": 1.2987012987012987,
+        "character_errors": 2,
+        "word_errors": 1,
+        "reference_characters": 516,
+        "reference_words": 77
+      }
+    },
+    {
+      "epoch": "epoch-2",
+      "id": "fr-01",
+      "stop_reason": "eos",
+      "text": "# UN VRP RETROUVÉ NU\n# DANS SA VOITURE\n\nLa police de Grampian, qui patrouillait la portion de l’A93 bloquée par la neige entre Braemar et Spittal of Glenshee, jeudi soir, a repéré une voiture apparemment abandonnée sur le bas-côté, au pied même de la station de ski de Glenshee.\n\nEn s’approchant, les policiers ont découvert le chauffeur inconscient dans son véhicule. Les vêtements appartenant au quadragénaire presque nu étaient éparpillés à bord de la voiture. À côté de lui, sur le siège passager, se trouvaient deux bouteilles de whisky vides.\n\nEn inspectant le coffre de la voiture, les policiers ont vu le mystère s’épaissir ; il contenait en effet deux cartons renfermant 400 brosses à dents, ainsi qu’un grand sac-poubelle noir rempli de cartes postales d’Asie.\n\nL’homme, qui souffrait d’une hypothermie grave, a dû être transporté par hélicoptère à la Royal Infirmary d’Aberdeen. Il a pu être identifié un peu plus tard comme Mr Maxwell Sim, âgé de 48 ans et domicilié à Watford, en Angleterre.\n\n11\nExtrait de la publication",
+      "reference": "# UN VRP RETROUVÉ NU DANS SA VOITURE\n\nLa police de Grampian, qui patrouillait la por-\ntion de l’A93 bloquée par la neige entre Braemar\net Spittal of Glenshee, jeudi soir, a repéré une voi-\nture apparemment abandonnée sur le bas-côté, au\npied même de la station de ski de Glenshee.\n\nEn s’approchant, les policiers ont découvert le\nchauffeur inconscient dans son véhicule. Les vête-\nments appartenant au quadragénaire presque nu\nétaient éparpillés à bord de la voiture. À côté de\nlui, sur le siège passager, se trouvaient deux bou-\nteilles de whisky vides.\n\nEn inspectant le coffre de la voiture, les policiers\nont vu le mystère s’épaissir ; il contenait en effet\ndeux cartons renfermant 400 brosses à dents, ainsi\nqu’un grand sac-poubelle noir rempli de cartes\npostales d’Asie.\n\nL’homme, qui souffrait d’une hypothermie grave,\na dû être transporté par hélicoptère à la Royal\nInfirmary d’Aberdeen. Il a pu être identifié un peu\nplus tard comme Mr Maxwell Sim, âgé de 48 ans\net domicilié à Watford, en Angleterre.\n\n11\n\nExtrait de la publication\n",
+      "language": "fr",
+      "image_grounding_manually_verified": false,
+      "quality": {
+        "cer": 0.7744433688286544,
+        "wer": 4.597701149425287,
+        "character_errors": 8,
+        "word_errors": 8,
+        "reference_characters": 1033,
+        "reference_words": 174
+      }
+    },
+    {
+      "epoch": "epoch-2",
+      "id": "fr-06",
+      "stop_reason": "eos",
+      "text": "ORGANISATION POUR L'HARMONISATION\nEN AFRIQUE DU DROIT DES AFFAIRES\n(OHADA)\n-------\nCOUR COMMUNE DE JUSTICE\nET D'ARBITRAGE\n(CCJA)\n-------\nTroisième chambre\n-------\n**Audience publique du 27 février 2020**\n\n**Pourvoi : n° 87/2016/PC du 11/04/2016**\n\n**Affaire : Société Générale Burkina Faso**\n(Conseils : SCPA TRUST WAY, Avocats à la Cour)\ncontre\n**Société COPIAFAX-BURKINA**\n(Conseil : Maître Arno SAMPEBRE, Avocat à la Cour)\n\n**Arrêt N° 063/2020 du 27 février 2020**\n\nLa Cour Commune de Justice et d'Arbitrage (CCJA) de l'Organisation\npour l'Harmonisation en Afrique du Droit des Affaires (OHADA), Troisième\nchambre, a rendu l'arrêt suivant en son audience publique du 27 février 2020 où\nétaient présents :\n\n| | |\n| :--- | :--- |\n| Messieurs Robert SAFARI ZIHALIRWA, | Président, rapporteur |\n| Mahamadou BERTE, | Juge |\n| Sabiou MAMANE NAISSA, | Juge |\n| et Maître Louis Kouamé HOUNGBO, | Greffier ; |\n\nSur le pourvoi enregistré au greffe de la Cour de céans le 11 avril 2016\nsous le n°087/2016/PC et formé par Maître André K.OUEDRAOGO de la SCPA\nTRUST WAY, Avocats à la Cour, 15 BP 73 Ouagadougou 15, élisant domicile à\nla SCPA KEBET & MEITE, sis à Cocody Deux Plateaux les Vallons, rue des\nJardins, face GS4 SECURITE, villa n°418, 06 BP 1247 Abidjan 06, agissant au\nnom et pour le compte de la Société Générale Burkina Faso, en abrégé (SGBF),\ndont le siège est à Ouagadougou, 248 rue de l'Hôtel de ville, 01 BP 585\nOuagadougou 01, Burkina Faso, représentée par son directeur général monsieur\nJean Marc Joseph Mathurin MANCEL, dans la cause qui l'oppose à la Société\nCOPIAFAX-BURKINA, dont le siège social est sis à Ouagadougou, secteur 04,",
+      "reference": "# ORGANISATION POUR L’HARMONISATION EN AFRIQUE DU DROIT DES AFFAIRES (OHADA)\n\n----------\n\n# COUR COMMUNE DE JUSTICE\n\n# ET D’ARBITRAGE\n\n# (CCJA)\n\n-----------\n\n# Troisième chambre\n\n-----\n\n# Audience publique du 27 février 2020\n\n# Pourvoi : n° 87/2016/PC du 11/04/2016\n\n# Affaire : Société Générale Burkina Faso\n\n(Conseils : SCPA TRUST WAY, Avocats à la Cour)\n\n# contre\n\n# Société COPIAFAX-BURKINA\n\n( Conseil : Maître Arno SAMPEBRE, Avocat à la Cour)\n\n# Arrêt N° 063/2020 du 27 février 2020\n\nLa Cour Commune de Justice et d’Arbitrage (CCJA) de l’Organisation pour l’Harmonisation en Afrique du Droit des Affaires (OHADA), Troisième chambre, a rendu l’arrêt suivant en son audience publique du 27 février 2020 où\nétaient présents :\n\nMessieurs Robert SAFARI ZIHALIRWA, Président, rapporteur\n\nMahamadou BERTE,        Juge\n\nSabiou MAMANE NAISSA, Juge\n\net Mâitre Louis Kouamé HOUNGBO, Greffier;\n\nSur le pourvoi enregistré au greffe de la Cour de céans le 11 avril 2016\nsous le n°087/2016/PC et formé par Maître André K.OUEDRAOGO de la SCPA\nTRUST WAY , Avocats à la Cour, 15 BP 73 Ouagadougou 15, élisant domicile à\nla SCPA KEBET & MEITE, sis à Cocody Deux Plateaux les Vallons, rue des\nJardins, face GS4 SECURITE, villa n°418, 06 BP 1247 Abidjan 06, agissant au\nnom et pour le compte de la Société Générale Burkina Faso, en abrégé (SGBF),\ndont le siège est à Ouagadougou, 248 rue de l’Hôtel de ville, 01 BP 585\nOuagadougou 01, Burkina Faso, représentée par son directeur général monsieur\nJean Marc Joseph Mathurin MANCEL, dans la cause qui l’oppose à la Société\nCOPIAFAX-BURKINA, dont le siège social est sis à Ouagadougou, secteur 04,\n",
+      "language": "fr",
+      "image_grounding_manually_verified": false,
+      "quality": {
+        "cer": 0.8397932816537468,
+        "wer": 5.905511811023622,
+        "character_errors": 13,
+        "word_errors": 15,
+        "reference_characters": 1548,
+        "reference_words": 254
+      }
+    },
+    {
+      "epoch": "epoch-2",
+      "id": "probe-chiffres",
+      "stop_reason": "eos",
+      "text": "٠١٢٣٤٥٦٧٨٩\n٠١٢٣٤٥٦٧٨٩\n0123456789",
+      "reference": "٠١٢٣٤٥٦٧٨٩\n۰۱۲۳۴۵۶۷۸۹\n0123456789",
+      "language": "ar",
+      "image_grounding_manually_verified": false,
+      "quality": {
+        "cer": 31.25,
+        "wer": 33.333333333333336,
+        "character_errors": 10,
+        "word_errors": 1,
+        "reference_characters": 32,
+        "reference_words": 3
+      },
+      "exact_visible_text": false,
+      "digit_counts_reference": {
+        "latin": 10,
+        "arabic_indic": 10,
+        "eastern_arabic_indic": 10
+      },
+      "digit_counts_output": {
+        "latin": 10,
+        "arabic_indic": 20,
+        "eastern_arabic_indic": 0
+      },
+      "missing_glyphs": {
+        "۰": 1,
+        "۱": 1,
+        "۲": 1,
+        "۳": 1,
+        "۴": 1,
+        "۵": 1,
+        "۶": 1,
+        "۷": 1,
+        "۸": 1,
+        "۹": 1
+      }
+    },
+    {
+      "epoch": "epoch-2",
+      "id": "probe-fr-symboles",
+      "stop_reason": "eos",
+      "text": "Procès-verbal\nÉchéance : 31/12/2026\nMontant : 1 234,56 €\nRemise : 15 %\nRéférence : œ, æ, ç, É, À\nMesures : ± ≤ ≥ × ÷ −",
+      "reference": "Procès-verbal\nÉchéance : 31/12/2026\nMontant : 1 234,56 €\nRemise : 15 %\nRéférence : œ, æ, ç, É, À\nMesures : ± ≤ ≥ × ÷ −",
+      "language": "fr",
+      "image_grounding_manually_verified": false,
+      "quality": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "character_errors": 0,
+        "word_errors": 0,
+        "reference_characters": 118,
+        "reference_words": 28
+      },
+      "exact_visible_text": true,
+      "digit_counts_reference": {
+        "latin": 16,
+        "arabic_indic": 0,
+        "eastern_arabic_indic": 0
+      },
+      "digit_counts_output": {
+        "latin": 16,
+        "arabic_indic": 0,
+        "eastern_arabic_indic": 0
+      },
+      "missing_glyphs": {}
+    },
+    {
+      "epoch": "epoch-2",
+      "id": "probe-vide",
+      "stop_reason": "verified_exact_blank",
+      "text": "",
+      "reference": "",
+      "language": "ar",
+      "image_grounding_manually_verified": false,
+      "quality": null,
+      "blank_passed": true
+    }
+  ],
+  "limitations": "Publisher annotations not all independently retranscribed. Automatic flags and lower teacher-forced loss do not prove that hallucinations have been removed."
+}

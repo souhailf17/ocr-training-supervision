@@ -1,0 +1,52 @@
+{
+  "snapshot_date": "2026-10-02",
+  "note": "Historical saved snapshot; not a live training status.",
+  "run": "four-H200 DDP, microbatch-3 continuation from step 7878",
+  "state_at_snapshot": "running",
+  "global_step": 8494,
+  "progress": {
+    "examples_processed": 1432832,
+    "examples_total": 3683080,
+    "percent": 38.9031
+  },
+  "configuration": {
+    "gpu_model": "NVIDIA H200",
+    "world_size": 4,
+    "microbatch_per_gpu": 3,
+    "gradient_accumulation": 32,
+    "global_batch": 384,
+    "max_sequence_length": 8192,
+    "base_precision": "BF16",
+    "lora_rank": 16,
+    "lora_alpha": 32
+  },
+  "training": {
+    "train_loss_latest": 0.17104518116104828,
+    "train_loss_mean_updates_7879_8494": 0.17573891528703084,
+    "learning_rate_latest": 6.768350205289314e-05,
+    "mean_update_seconds": 32.67462615494604,
+    "p95_update_seconds": 34.64429759979248,
+    "end_to_end_examples_per_second": 11.664009820855108
+  },
+  "evaluation": {
+    "baseline_loss": 0.32653331780324524,
+    "best_loss": 0.2933623837921471,
+    "best_step": 8487,
+    "relative_loss_decrease_percent": 10.15851436976043
+  },
+  "checkpoint": {
+    "filename": "checkpoint-8487.pt",
+    "global_step": 8487,
+    "examples_seen": 1430144,
+    "sha256": "2483f053aade0dfddff6d2de99d61c6ba1b4aea0c92c97b871308e6dfc3e01c9",
+    "weights_included": false
+  },
+  "gpu_capture": {
+    "samples_per_gpu": 60,
+    "gpu_count": 4,
+    "sample_count_total": 240,
+    "duration_seconds": 309.39,
+    "mean_sample_interval_seconds": 5.243898305084746,
+    "mean_utilization_percent": 79.16666666666667
+  }
+}

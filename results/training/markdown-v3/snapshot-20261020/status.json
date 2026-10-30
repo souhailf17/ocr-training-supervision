@@ -1,0 +1,39 @@
+{
+  "timestamp": 1792495939.7250803,
+  "state": "running",
+  "global_step": 16981,
+  "phase_step": 2626,
+  "phase_samples": 1008384,
+  "total_phase_samples": 1841540,
+  "train_loss": 0.11569936527715541,
+  "learning_rate": 1.4407537208300958e-05,
+  "update_seconds": 144.75757956504822,
+  "data_seconds": 15.281197547912598,
+  "compute_seconds": 129.45594882965088,
+  "world_size": 1,
+  "global_batch": 384,
+  "microbatch": 1,
+  "accumulation": 384,
+  "supervised_tokens": 133453,
+  "gradient_norm": 0.27719563245773315,
+  "rank_measurements": [
+    {
+      "rank": 0,
+      "data_seconds": 15.281197547912598,
+      "compute_seconds": 129.45524549484253,
+      "peak_allocated_gib": 29.062248706817627,
+      "peak_reserved_gib": 30.955078125,
+      "kernel_calls": {
+        "causal_conv1d_fn": 18432,
+        "chunk_gated_delta_rule": 18432
+      }
+    }
+  ],
+  "peak_allocated_gib": 29.062248706817627,
+  "peak_reserved_gib": 30.955078125,
+  "examples_per_second": 2.507513112529189,
+  "actual_kernel_calls": {
+    "causal_conv1d_fn": 49093152,
+    "chunk_gated_delta_rule": 49093152
+  }
+}

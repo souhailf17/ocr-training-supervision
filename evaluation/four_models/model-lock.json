@@ -1,0 +1,98 @@
+{
+  "repo": "baidu/Unlimited-OCR-2",
+  "revision": "5632329a32e103d5f1add270681e0f5c1233c6e4",
+  "files": [
+    {
+      "name": "_sparse_base_impl.py",
+      "sha256": "86da9c5638704bb9338575040568a97b3e10820bbeb426f51c07e866f3423ccd",
+      "size": 221755
+    },
+    {
+      "name": "config.json",
+      "sha256": "607d130a70d5af5a35329aa237acd68651f45504c62cc7ced981066f4e781126",
+      "size": 5525
+    },
+    {
+      "name": "configuration_deepseek_v2.py",
+      "sha256": "b8470dd616ba8745fce6e27b093aef73a098863cc891b2477dcf9326a36000f7",
+      "size": 10720
+    },
+    {
+      "name": "conversation.py",
+      "sha256": "ec7b6ce89bcda643de1f43269ffa66a7b2e65dc3ed30e427958f776546b4ba03",
+      "size": 9253
+    },
+    {
+      "name": "dash_attention.py",
+      "sha256": "960b460acd816df8e561e73dccd5683acb95445eddc723c4f0d6ed1f462b2f77",
+      "size": 71465
+    },
+    {
+      "name": "deepencoder.py",
+      "sha256": "419b63388c1645b9b72c716070cdca36cd0be6047049424dc75941d3a00aaf1f",
+      "size": 37939
+    },
+    {
+      "name": "generation_config.json",
+      "sha256": "dcd0479f3a12e5e4413d956197f8a4074408e4901834b38c7e036519134e05af",
+      "size": 111
+    },
+    {
+      "name": "model-00001-of-00002.safetensors",
+      "sha256": "4c40b740f209fd7682040d4ebf19409208acde5c401ccd2dde426d0f41542f18",
+      "size": 4998430312
+    },
+    {
+      "name": "model-00002-of-00002.safetensors",
+      "sha256": "9490b82fa47f89e5110eb5577f8ab1b6694c12121905dbc086ddb10207a4ba0c",
+      "size": 1689875264
+    },
+    {
+      "name": "model.safetensors.index.json",
+      "sha256": "dc60a31ecb77eb03e166345d18cbe25bc71d2a19cc6fc089d8a9ac1c7f209671",
+      "size": 254054
+    },
+    {
+      "name": "modeling_deepseekv2.py",
+      "sha256": "24a15dfd47578ab24a7a4d4e977dc5d7a23dfef0a2a4c4bf73fcf3e2ce7acaf2",
+      "size": 25572
+    },
+    {
+      "name": "modeling_unlimitedocr.py",
+      "sha256": "f6df813cef23cc28b1daca40fd8cb20740d05a238e7b9dfa2334531fdcf39f1f",
+      "size": 55724
+    },
+    {
+      "name": "packing_patch.py",
+      "sha256": "e60d842c210c9f1d6cd2ae328cf9127a75f7941a0cea2a8e9abc14662f770c6c",
+      "size": 8110
+    },
+    {
+      "name": "sparse_gather_e2e_triton.py",
+      "sha256": "58f1bc46093d47b00744970677e66bfbd7485a2d13810f46d13d867ceda13dd4",
+      "size": 18058
+    },
+    {
+      "name": "sparse_gather_triton.py",
+      "sha256": "c3de717ffaca40240c665b8d645f15a9d1999feeabaa94beb35caad877c2f0f4",
+      "size": 23860
+    },
+    {
+      "name": "special_tokens_map.json",
+      "sha256": "9e89493d7938e7710c524dbaff613c3648f0a018262417af78505128004e5cb4",
+      "size": 549
+    },
+    {
+      "name": "tokenizer.json",
+      "sha256": "c55c165e32c5a67830362a53e1f548c8930dcc8469efa30ff3252a982799c589",
+      "size": 9980278
+    },
+    {
+      "name": "tokenizer_config.json",
+      "sha256": "ceba7d221f265cca4c98b5e0a1d48c10107270b7b29c12396610d6d0fd64b126",
+      "size": 166632
+    }
+  ],
+  "total_bytes": 6699195181,
+  "source": "official HF pinned repository and LFS SHA256 metadata"
+}

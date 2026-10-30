@@ -1,0 +1,21 @@
+{
+  "id": "probe-fr-symboles",
+  "text": "Procès-verbal\nÉchéance : 31/12/2026\nMontant : 1 234,56 €\nRemise : 15 %\nRéférence : œ, æ, ç, É, À\nMesures : ± ≤ ≥ × ÷ −",
+  "stop_reason": "eos",
+  "tokens": 67,
+  "seconds": 3.752434626221657,
+  "image_sha256": "9b051bef8013e16ab358a5a9c8d87af2e46d0b30c41c079feb752b59f58fbb55",
+  "fidelity_audit": {
+    "requires_review": false,
+    "flags": [],
+    "text_rewritten": false,
+    "image_grounding_verified": false,
+    "raw_characters": 118,
+    "digit_glyph_counts": {
+      "latin": 16,
+      "arabic_indic": 0,
+      "eastern_arabic_indic": 0
+    }
+  },
+  "ground_truth_given_to_model": false
+}

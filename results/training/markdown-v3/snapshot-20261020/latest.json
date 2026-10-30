@@ -1,0 +1,8 @@
+{
+  "path": "/work/q35ocr-20260921-p560/training-markdown-v3-orig-aug1/checkpoints/checkpoint-002603.pt",
+  "key": "training-markdown-v3-orig-aug1/checkpoints/checkpoint-002603.pt",
+  "sha256": "3010cb505993b2d7da412a336a18cf7c87168f06966227f511a3c9aefbd871c4",
+  "phase_step": 2603,
+  "phase_samples": 999552,
+  "global_step": 16958
+}

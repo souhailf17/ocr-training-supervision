@@ -1,0 +1,6 @@
+boto3==1.43.98
+numpy
+Pillow
+pytest
+torch
+transformers

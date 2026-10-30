@@ -1,0 +1,83 @@
+[
+  {
+    "label": "base-initial",
+    "step": 0,
+    "examples_consumed": 0,
+    "values": {
+      "ar": {
+        "loss": 1.3868891624718254,
+        "supervised_tokens": 20961,
+        "examples": 25
+      },
+      "all": {
+        "loss": 0.6415951587687441,
+        "supervised_tokens": 51175,
+        "examples": 75
+      },
+      "fr": {
+        "loss": 0.12928539146804346,
+        "supervised_tokens": 15782,
+        "examples": 25
+      },
+      "en": {
+        "loss": 0.11936436164564042,
+        "supervised_tokens": 14432,
+        "examples": 25
+      }
+    }
+  },
+  {
+    "label": "epoch-1",
+    "step": 19,
+    "examples_consumed": 300,
+    "values": {
+      "ar": {
+        "loss": 1.3236426289246783,
+        "supervised_tokens": 20961,
+        "examples": 25
+      },
+      "all": {
+        "loss": 0.6114898127368931,
+        "supervised_tokens": 51175,
+        "examples": 75
+      },
+      "fr": {
+        "loss": 0.12088473438659543,
+        "supervised_tokens": 15782,
+        "examples": 25
+      },
+      "en": {
+        "loss": 0.1136582000991598,
+        "supervised_tokens": 14432,
+        "examples": 25
+      }
+    }
+  },
+  {
+    "label": "epoch-2",
+    "step": 38,
+    "examples_consumed": 600,
+    "values": {
+      "ar": {
+        "loss": 1.209046176606804,
+        "supervised_tokens": 20961,
+        "examples": 25
+      },
+      "all": {
+        "loss": 0.5635696377382902,
+        "supervised_tokens": 51175,
+        "examples": 75
+      },
+      "fr": {
+        "loss": 0.1191047193789556,
+        "supervised_tokens": 15782,
+        "examples": 25
+      },
+      "en": {
+        "loss": 0.11212227149134602,
+        "supervised_tokens": 14432,
+        "examples": 25
+      }
+    }
+  }
+]

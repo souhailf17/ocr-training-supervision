@@ -1,0 +1,21 @@
+{
+  "id": "blank-fr-validation-00",
+  "text": "",
+  "stop_reason": "eos",
+  "tokens": 1,
+  "seconds": 0.11471604742109776,
+  "image_sha256": "68575371137b46b1d1f09eefdd6f522463de5ff8a8cfb16d175d442670a5b096",
+  "fidelity_audit": {
+    "requires_review": false,
+    "flags": [],
+    "text_rewritten": false,
+    "image_grounding_verified": false,
+    "raw_characters": 0,
+    "digit_glyph_counts": {
+      "latin": 0,
+      "arabic_indic": 0,
+      "eastern_arabic_indic": 0
+    }
+  },
+  "ground_truth_given_to_model": false
+}

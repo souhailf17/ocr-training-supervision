@@ -1,0 +1,9 @@
+{
+  "path": "/work/q35ocr-20260921-p560/training-markdown-v3-orig-aug1/checkpoints/checkpoint-002500.pt",
+  "key": "training-markdown-v3-orig-aug1/checkpoints/checkpoint-002500.pt",
+  "sha256": "dc9067adfd4703fff877c4180f1f492003d3a8745ded654fca78e116bc87fed0",
+  "phase_step": 2500,
+  "phase_samples": 960000,
+  "global_step": 16855,
+  "eval_loss": 0.1643786626009994
+}

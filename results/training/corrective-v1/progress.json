@@ -1,0 +1,8 @@
+{
+  "state": "training",
+  "epoch": 2,
+  "step": 38,
+  "examples_consumed": 600,
+  "total_examples": 600,
+  "last_train_loss": 0.28734886896563694
+}

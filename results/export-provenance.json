@@ -1,0 +1,1244 @@
+[
+  {
+    "path": ".gitattributes",
+    "source": "github/qwen35-ocr-finetuning/.gitattributes",
+    "source_sha256": "9213759140ccf8d28b942e63ea87a6e3e92b955ddd9f02b9b7abcac10390a427",
+    "transformation": "historical documentation given current-state banner or rewritten security/README; source preserved separately where indicated"
+  },
+  {
+    "path": ".gitignore",
+    "source": "github/qwen35-ocr-finetuning/.gitignore",
+    "source_sha256": "f4e3fa81411ef323185b0b36be93ed103bcc732c73193cf47350b44a9d5a5646",
+    "transformation": "historical documentation given current-state banner or rewritten security/README; source preserved separately where indicated"
+  },
+  {
+    "path": "README.md",
+    "source": "github/qwen35-ocr-finetuning/README.md",
+    "source_sha256": "7331668ba161eed94fec008009b6d5fd19d3b828bbef538ad5b29e18eb11e6e4",
+    "transformation": "historical documentation given current-state banner or rewritten security/README; source preserved separately where indicated"
+  },
+  {
+    "path": "requirements-evaluation.txt",
+    "source": "github/qwen35-ocr-finetuning/requirements-evaluation.txt",
+    "source_sha256": "28a0af6ef15d858a125aa2bc6e35e9806b637938cb89867a4fac4b66583c9ca2",
+    "transformation": "none"
+  },
+  {
+    "path": "requirements.txt",
+    "source": "github/qwen35-ocr-finetuning/requirements.txt",
+    "source_sha256": "8e3d6b218df40205788c15535229e857cbe0137e9cd2760474c2dc5ef2dd13c5",
+    "transformation": "none"
+  },
+  {
+    "path": "SECURITY.md",
+    "source": "github/qwen35-ocr-finetuning/SECURITY.md",
+    "source_sha256": "777853a4cdded24c86ca08c555da89e2e55e7a4aeb38e303c917cf0c7a0813db",
+    "transformation": "historical documentation given current-state banner or rewritten security/README; source preserved separately where indicated"
+  },
+  {
+    "path": "docs/architecture.md",
+    "source": "github/qwen35-ocr-finetuning/docs/architecture.md",
+    "source_sha256": "aa10a97eea297fe6b4cdb8bcf7a9449a70d47777c8e911e1b0a6e4d80c5ede5b",
+    "transformation": "historical documentation given current-state banner or rewritten security/README; source preserved separately where indicated"
+  },
+  {
+    "path": "docs/checkpoints.md",
+    "source": "github/qwen35-ocr-finetuning/docs/checkpoints.md",
+    "source_sha256": "600f2099d28c8e27292efb33e51942e534d87f7f6836ae58415e06798e8d60f5",
+    "transformation": "historical documentation given current-state banner or rewritten security/README; source preserved separately where indicated"
+  },
+  {
+    "path": "docs/dataset.md",
+    "source": "github/qwen35-ocr-finetuning/docs/dataset.md",
+    "source_sha256": "eeef95b67013519296c7e58ca1709af8f4799560ad76fd5b94ce67f97cedd283",
+    "transformation": "historical documentation given current-state banner or rewritten security/README; source preserved separately where indicated"
+  },
+  {
+    "path": "docs/environment.md",
+    "source": "github/qwen35-ocr-finetuning/docs/environment.md",
+    "source_sha256": "e831bd536e86b670db08e45c4b23944adf1fa19f56ac0dc40fb03107cd1709d8",
+    "transformation": "historical documentation given current-state banner or rewritten security/README; source preserved separately where indicated"
+  },
+  {
+    "path": "docs/markdown-corpus-v3.md",
+    "source": "github/qwen35-ocr-finetuning/docs/markdown-corpus-v3.md",
+    "source_sha256": "e26c0f460aac58d1d4e0ab5eb98999e93217a21f92671b25d337b242498dbdbf",
+    "transformation": "historical documentation given current-state banner or rewritten security/README; source preserved separately where indicated"
+  },
+  {
+    "path": "docs/minio-read-retries-2026-10-07.md",
+    "source": "github/qwen35-ocr-finetuning/docs/minio-read-retries-2026-10-07.md",
+    "source_sha256": "bfed5e96e45582b09194d3b09d6bda07028df422aaf0ab6c2034be344d1a5441",
+    "transformation": "historical documentation given current-state banner or rewritten security/README; source preserved separately where indicated"
+  },
+  {
+    "path": "docs/model.md",
+    "source": "github/qwen35-ocr-finetuning/docs/model.md",
+    "source_sha256": "4073ae3b5ec891810f812a0dd9094385837ab7575276141b55d6851696294d3d",
+    "transformation": "historical documentation given current-state banner or rewritten security/README; source preserved separately where indicated"
+  },
+  {
+    "path": "docs/multigpu.md",
+    "source": "github/qwen35-ocr-finetuning/docs/multigpu.md",
+    "source_sha256": "dfe4c7c61d43e4ac3eb46c810f3f85c909c0a9365723bd19bb3e6825c709e1c9",
+    "transformation": "historical documentation given current-state banner or rewritten security/README; source preserved separately where indicated"
+  },
+  {
+    "path": "docs/ocr-fidelity.md",
+    "source": "github/qwen35-ocr-finetuning/docs/ocr-fidelity.md",
+    "source_sha256": "d5352dfb01b27b6dece16cddf9920711cdc12aeefdf1efd27fb3c5eb13a4f68b",
+    "transformation": "historical documentation given current-state banner or rewritten security/README; source preserved separately where indicated"
+  },
+  {
+    "path": "docs/optimization-branch-2026-10-03.md",
+    "source": "github/qwen35-ocr-finetuning/docs/optimization-branch-2026-10-03.md",
+    "source_sha256": "90b2812dd6cc813a78f7a6f07486e4b2e241c82997bc4389837f0d202e0499b0",
+    "transformation": "historical documentation given current-state banner or rewritten security/README; source preserved separately where indicated"
+  },
+  {
+    "path": "docs/optimization-review-2026-10-02.md",
+    "source": "github/qwen35-ocr-finetuning/docs/optimization-review-2026-10-02.md",
+    "source_sha256": "bc81126fc38ecbe7218817f7048cc86071d8c6956d954c81ecefb388ef526541",
+    "transformation": "historical documentation given current-state banner or rewritten security/README; source preserved separately where indicated"
+  },
+  {
+    "path": "docs/table-correction-phase.md",
+    "source": "github/qwen35-ocr-finetuning/docs/table-correction-phase.md",
+    "source_sha256": "f661f3ca3dd60fe9d7ba23418629975b9729fbd2e6bc0c9c8c154d7346f85c65",
+    "transformation": "historical documentation given current-state banner or rewritten security/README; source preserved separately where indicated"
+  },
+  {
+    "path": "docs/table-targets-v2.md",
+    "source": "github/qwen35-ocr-finetuning/docs/table-targets-v2.md",
+    "source_sha256": "5534f2f4fac7b30474321c2e44537847fa6cfa2304d293a956a2cadfee0cabaa",
+    "transformation": "historical documentation given current-state banner or rewritten security/README; source preserved separately where indicated"
+  },
+  {
+    "path": "docs/throughput-investigation.md",
+    "source": "github/qwen35-ocr-finetuning/docs/throughput-investigation.md",
+    "source_sha256": "180b7019fe815cdfcb166d8e4d32c84deedb88c5b660950fca391c8813274548",
+    "transformation": "historical documentation given current-state banner or rewritten security/README; source preserved separately where indicated"
+  },
+  {
+    "path": "docs/training.md",
+    "source": "github/qwen35-ocr-finetuning/docs/training.md",
+    "source_sha256": "2f5b5f3710753705a21b07ac072666440961d88a2628abd9a0fe5bad4db8a6a8",
+    "transformation": "historical documentation given current-state banner or rewritten security/README; source preserved separately where indicated"
+  },
+  {
+    "path": "docs/troubleshooting.md",
+    "source": "github/qwen35-ocr-finetuning/docs/troubleshooting.md",
+    "source_sha256": "0989144091fc5fcaa47bfec056ef0844806a11f133a5c1e6087fe6ba1b3bc883",
+    "transformation": "historical documentation given current-state banner or rewritten security/README; source preserved separately where indicated"
+  },
+  {
+    "path": "evidence/model-tree.json",
+    "source": "github/qwen35-ocr-finetuning/evidence/model-tree.json",
+    "source_sha256": "bcea36ea162c656193627108831b895507765a31a8fe7d26b9e10385060d46c4",
+    "transformation": "none"
+  },
+  {
+    "path": "evidence/README.md",
+    "source": "github/qwen35-ocr-finetuning/evidence/README.md",
+    "source_sha256": "9d759bbe2f5a281f98aaec1efa6f04d1fe271dbcd8b6651805e363efcbaef289",
+    "transformation": "none"
+  },
+  {
+    "path": "metrics/eval-metrics-step7878.csv",
+    "source": "github/qwen35-ocr-finetuning/metrics/eval-metrics-step7878.csv",
+    "source_sha256": "50bc2f3693d7f9893247003b9f782b058e2d77b8d33f44c62e22da72c936e462",
+    "transformation": "none"
+  },
+  {
+    "path": "metrics/gpu-samples-2026-10-02.csv",
+    "source": "github/qwen35-ocr-finetuning/metrics/gpu-samples-2026-10-02.csv",
+    "source_sha256": "403ad185b23d60a0ab15ae3211006159a14dad939057f8b7009c8821fc032ecb",
+    "transformation": "none"
+  },
+  {
+    "path": "metrics/gpu-summary-2026-10-02.csv",
+    "source": "github/qwen35-ocr-finetuning/metrics/gpu-summary-2026-10-02.csv",
+    "source_sha256": "1d41c511b205208c91b238be3a4400af84f0740e4d0973e2dbb7f1080ffc37e6",
+    "transformation": "none"
+  },
+  {
+    "path": "metrics/metrics-summary-step7878.json",
+    "source": "github/qwen35-ocr-finetuning/metrics/metrics-summary-step7878.json",
+    "source_sha256": "cf20bccb12e3fbb9d48be24d1d7e6a7f3a6db043081555dee31bf1986ac61d15",
+    "transformation": "none"
+  },
+  {
+    "path": "metrics/training-dashboard-step7878.png",
+    "source": "github/qwen35-ocr-finetuning/metrics/training-dashboard-step7878.png",
+    "source_sha256": "2e261457dfe2ab484feadba9b774cc654bf950ef22c6c47fa1e163113cba48e9",
+    "transformation": "none"
+  },
+  {
+    "path": "metrics/training-dashboard-step8494.png",
+    "source": "github/qwen35-ocr-finetuning/metrics/training-dashboard-step8494.png",
+    "source_sha256": "7d66b7bc4a07a37d086cee5016c3c0ab23944a2f152c62206128a4c43cd5ea67",
+    "transformation": "none"
+  },
+  {
+    "path": "metrics/training-metrics-step7879-8494.csv",
+    "source": "github/qwen35-ocr-finetuning/metrics/training-metrics-step7879-8494.csv",
+    "source_sha256": "31b3b284586f290d336b564494f4426fed5db31d150a0e4be230dd5c4a79ec2d",
+    "transformation": "none"
+  },
+  {
+    "path": "metrics/training-snapshot-2026-10-02.json",
+    "source": "github/qwen35-ocr-finetuning/metrics/training-snapshot-2026-10-02.json",
+    "source_sha256": "f251a697530149bfadc2c531d6e32863c79d9050b8d53a214ac39c60736bf626",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/annotation_targets.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/annotation_targets.py",
+    "source_sha256": "f192b0c11b45a1d1706e27f64e14b8c9889babab834d07fd9f28c1a85a09084a",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/arsenal_ocr.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/arsenal_ocr.py",
+    "source_sha256": "8795c0261bbe59bd5f090394c20aeaaa5d29dba27cf5e24b650aa34c48013d71",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/distributed_ocr.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/distributed_ocr.py",
+    "source_sha256": "77e6a492536466c7949277df99da3c15f303ba135dbb3458a953c1946c7251a8",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/infer_ocr_fidelity.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/infer_ocr_fidelity.py",
+    "source_sha256": "9f9ff8a93c69995e4108addbac1efddd7a4f08be7bfcee8f7b3f35aed0cede9e",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/inspect_training_tables.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/inspect_training_tables.py",
+    "source_sha256": "2a4a0d32677e6122a5cca47f777e6b6fb40136f882a95c147acd2a9bf63737f9",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/large_batch.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/large_batch.py",
+    "source_sha256": "adba85b356f05a740935a8626a1ca6ebd06e277e0d9e7d2a2448cbd04eb37562",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/launch_optimization_preflight_gpu4_m4.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/launch_optimization_preflight_gpu4_m4.py",
+    "source_sha256": "ad9b8f06e1d23ec2924310985cf8cf792b04dc8f1a523582ae35215f1c325952",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/launch_optimized_resume_gpu4_m3_from7878_v1.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/launch_optimized_resume_gpu4_m3_from7878_v1.py",
+    "source_sha256": "90e27d5b25162a3930977da32ff1530b7c08d232ed7f0a65ad7a48cd0cbdf554",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/lora.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/lora.py",
+    "source_sha256": "3901369100bbf8d61484ca9afea116f82551e1710c1ea7649a4d33cbc80c8e12",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/markdown_data_runtime.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/markdown_data_runtime.py",
+    "source_sha256": "4b32f21712dc22c655677f5f67770f73237dcbc72a1aa047944acc9b8b1efb58",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/markdown_ocr_metrics.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/markdown_ocr_metrics.py",
+    "source_sha256": "dbce42c54a63134500c11052ef5921d9d8b2f037ab9246d2b30eb266f82cbbf4",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/markdown_pipeline_controller.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/markdown_pipeline_controller.py",
+    "source_sha256": "d3a007d5d7b2608949713d232663c9326dea5df37c910308857dbecfea119e0d",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/markdown_stream.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/markdown_stream.py",
+    "source_sha256": "6e4f2d765d39ac3bffe2551b6a8c137d26fc05439b126970a7c5a23af2a94b2a",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/markdown_table_targets.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/markdown_table_targets.py",
+    "source_sha256": "a5e8894a35f804beacab4581c28fac72875e87ac891d219909c3af8f77129f85",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/minio_retry.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/minio_retry.py",
+    "source_sha256": "8d43dfe97095f0a09e5b262a30eb53c744f703071d1c6699a6124744030fc8eb",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/ocr_fidelity.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/ocr_fidelity.py",
+    "source_sha256": "a801fa1cede45422901023aa46cad0c12614600f334ab9ea908c0f3fe5452f5a",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/ordered_prefetch.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/ordered_prefetch.py",
+    "source_sha256": "82c61cfba5a755e8feedbd0eaec9991ac61a5debbfdd8d58286e45e00738b7ae",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/performance_benchmark.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/performance_benchmark.py",
+    "source_sha256": "13d5d325bac4161e4c78eae421aa051f00d247706a0cbf4ef66ab7f9a26578a4",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/pilot_train.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/pilot_train.py",
+    "source_sha256": "e31cb2a332743bc242cb6f1650f50cf287a6ea602b32c6566b0f774d88bdf33e",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/prepare_dataset.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/prepare_dataset.py",
+    "source_sha256": "30d669efb804d614d4c86073f7624c9541d502de9d4b04df76bda635749d42c4",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/prepare_dataset_tables.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/prepare_dataset_tables.py",
+    "source_sha256": "225b7883868aa5d5c9a44101494d685cba39d4a424ef7f8d6ec266830a306a43",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/prepare_markdown_corpus.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/prepare_markdown_corpus.py",
+    "source_sha256": "d4aa3b3203bfde85831235c469d4e296e41e14fe1e2458c65e432d0f37160707",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/prepare_table_correction.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/prepare_table_correction.py",
+    "source_sha256": "960b4d1e80d552e0caec990ebc53e369cc43f3542fa5f4c680430e1378e654fc",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/prepare_table_examples.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/prepare_table_examples.py",
+    "source_sha256": "d0b04cc0e3d91257cc5921c98ed97796f5f2e3ae3acde6e8c3fabbe07e8cfc63",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/project_runtime.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/project_runtime.py",
+    "source_sha256": "7b1a795945ad5db94c9f05bb7bb2cafa5ce801896b3064b3cb376523e0e51645",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/refresh_table_selection.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/refresh_table_selection.py",
+    "source_sha256": "f8ef43001fa385028824ac85a6d3ba5ebb25f55935130675a0fc3d10ee163a3e",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/s3_common.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/s3_common.py",
+    "source_sha256": "4e3383a62f5cf567bcdebf698b13db43b41ac857a16fd08a425ed93f3317d255",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/score_table_ocr.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/score_table_ocr.py",
+    "source_sha256": "bcdff997af2ce62d57e419c422e4af2d6246747e853d8078ebcc4b40e2734cff",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/stage_markdown_training.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/stage_markdown_training.py",
+    "source_sha256": "62e97fa940a0e2d94a21ebad81ded65f758a5f84b0a80016f99af6643f569ec1",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/stage_training.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/stage_training.py",
+    "source_sha256": "64e49debe47e3fef88be56e3c71a3400a0316e875368b453506d64ba8d35e6bb",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/table_correction_runtime.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/table_correction_runtime.py",
+    "source_sha256": "93fca1f8bf2fdec1d301c2e77ab3928b792bcd269f5834b0294a8d8958d1842e",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/table_phase_state.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/table_phase_state.py",
+    "source_sha256": "0c2f579307756d89f755d1da9ddf948dafbc329b5738d332b40232cf4d55d3b0",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/test_table_checkpoint.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/test_table_checkpoint.py",
+    "source_sha256": "816afae8b7f77936f2e9869b5630b8649b8ace4f794eb75dd430d5885e350d1e",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/training_config.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/training_config.py",
+    "source_sha256": "cb156a887bba61d5b9a97015eeabc88ce422f07e989647742d411f53cbf17088",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/train_full.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/train_full.py",
+    "source_sha256": "26c50f6db829e919d21a567765dca0cbf30b3094f64d70b29ae9a1c0f5945bc6",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/train_markdown_corpus.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/train_markdown_corpus.py",
+    "source_sha256": "8dd3a358c17bb930e9689dc1f6aac6802995e67b223c414ebbed3eebababffd6",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/train_optimized.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/train_optimized.py",
+    "source_sha256": "369ff3bc31ea817ad47762dc1eceaa24697d3fead7d09db29fc7d26ee651eece",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/train_optimized_resume_gpu4_m3_from7878_v1.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/train_optimized_resume_gpu4_m3_from7878_v1.py",
+    "source_sha256": "f3c9c18a1b8d209186d32e191ab77fd678f08bd1f51dc3c12c5b35780830eb4a",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/train_table_correction.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/train_table_correction.py",
+    "source_sha256": "c55dee7b80a5bbdcf6b16da0d93d0cd7182ce223779391e7aa531790b0ced2f8",
+    "transformation": "none"
+  },
+  {
+    "path": "tests/test_annotation_targets.py",
+    "source": "github/qwen35-ocr-finetuning/tests/test_annotation_targets.py",
+    "source_sha256": "2f4036046dd632e0047a6ba29ae85971b306785ed3036f0596142a77d14b4276",
+    "transformation": "none"
+  },
+  {
+    "path": "tests/test_distributed_loader.py",
+    "source": "github/qwen35-ocr-finetuning/tests/test_distributed_loader.py",
+    "source_sha256": "0419eca7ea412ac6691682809d3ae24cf5c81a84df696e47d46fae88df2bd2f1",
+    "transformation": "none"
+  },
+  {
+    "path": "tests/test_fast_stream_contract.py",
+    "source": "github/qwen35-ocr-finetuning/tests/test_fast_stream_contract.py",
+    "source_sha256": "c570da712914e8aac27fa84f6fea0c2143cbe9d5c26580b50a348a0ce0bccf43",
+    "transformation": "none"
+  },
+  {
+    "path": "tests/test_lora_precision.py",
+    "source": "github/qwen35-ocr-finetuning/tests/test_lora_precision.py",
+    "source_sha256": "818b9194f38cc26b4be0d7cb3162e3e61a461a2b0cd47e54c1b574a260063bc5",
+    "transformation": "none"
+  },
+  {
+    "path": "tests/test_markdown_ocr_metrics.py",
+    "source": "github/qwen35-ocr-finetuning/tests/test_markdown_ocr_metrics.py",
+    "source_sha256": "bf473dfb382c6dd5902e58a602b3a297a4028c10c219b83db86531782afb7550",
+    "transformation": "none"
+  },
+  {
+    "path": "tests/test_markdown_pipeline_controller.py",
+    "source": "github/qwen35-ocr-finetuning/tests/test_markdown_pipeline_controller.py",
+    "source_sha256": "1b0922c66e489a7b9e30e758fe9bca41f3d7910c1c60d5b6e7b5c65f3c71adcc",
+    "transformation": "none"
+  },
+  {
+    "path": "tests/test_markdown_stream.py",
+    "source": "github/qwen35-ocr-finetuning/tests/test_markdown_stream.py",
+    "source_sha256": "e3e26526444d91a1fa942e7e81a3e624fc143217c006ee4fc775a6c17d81f71c",
+    "transformation": "none"
+  },
+  {
+    "path": "tests/test_markdown_table_targets.py",
+    "source": "github/qwen35-ocr-finetuning/tests/test_markdown_table_targets.py",
+    "source_sha256": "7018febf1e23f254e64e39b5a8c7af452fe77bf751f617155a245becc69dec02",
+    "transformation": "none"
+  },
+  {
+    "path": "tests/test_minio_retry.py",
+    "source": "github/qwen35-ocr-finetuning/tests/test_minio_retry.py",
+    "source_sha256": "8c071c4ed45cbf273436a5b3b1845974dd7fbef89c2cbf8ce4c4b6d824f4a82a",
+    "transformation": "none"
+  },
+  {
+    "path": "tests/test_ocr_fidelity.py",
+    "source": "github/qwen35-ocr-finetuning/tests/test_ocr_fidelity.py",
+    "source_sha256": "83ae3b1eca49abc5fb492ad24c19df35d944762c000e81d4c7ac7eb4de309170",
+    "transformation": "none"
+  },
+  {
+    "path": "tests/test_ordered_prefetch.py",
+    "source": "github/qwen35-ocr-finetuning/tests/test_ordered_prefetch.py",
+    "source_sha256": "cbe5f63a99393aca88aa2b36ec516d99c131c82f6b927856b8dde80a89909f7e",
+    "transformation": "none"
+  },
+  {
+    "path": "tests/test_preparation.py",
+    "source": "github/qwen35-ocr-finetuning/tests/test_preparation.py",
+    "source_sha256": "e04dcbc8b6dc6a21c98096f6a1b8df17909907e58da4f66d735add8f79815a9c",
+    "transformation": "none"
+  },
+  {
+    "path": "tests/test_prepare_table_targets_integration.py",
+    "source": "github/qwen35-ocr-finetuning/tests/test_prepare_table_targets_integration.py",
+    "source_sha256": "42dc6b02c071f24fd0ca053ea856e3d71a65c50200989cc3a0041e32227be0ab",
+    "transformation": "none"
+  },
+  {
+    "path": "tests/test_refresh_table_selection.py",
+    "source": "github/qwen35-ocr-finetuning/tests/test_refresh_table_selection.py",
+    "source_sha256": "6aa357510d0a1041052ce5e1a477799132c681d95c90ac946a8b4f55de263d6a",
+    "transformation": "none"
+  },
+  {
+    "path": "tests/test_table_phase_state.py",
+    "source": "github/qwen35-ocr-finetuning/tests/test_table_phase_state.py",
+    "source_sha256": "23518c19ecff5d405eccb2d4f6b60153e144edfb96dc9df9c5af0c4a49f2165d",
+    "transformation": "none"
+  },
+  {
+    "path": "tests/test_table_scoring.py",
+    "source": "github/qwen35-ocr-finetuning/tests/test_table_scoring.py",
+    "source_sha256": "031159c39a40b8a94cddc9d1754310eeb65efa65cca0fce48a6f2e0277904936",
+    "transformation": "none"
+  },
+  {
+    "path": "tests/test_training_config.py",
+    "source": "github/qwen35-ocr-finetuning/tests/test_training_config.py",
+    "source_sha256": "c27f6ef7e469057ebd27fef8f88dc3f43781557bf654bfb93b0d714ea6649d8a",
+    "transformation": "none"
+  },
+  {
+    "path": "tests/test_training_table_ranges.py",
+    "source": "github/qwen35-ocr-finetuning/tests/test_training_table_ranges.py",
+    "source_sha256": "a0c419655869806572996ad8ca463642361129e254ffdcb5590d3b3bd5176daa",
+    "transformation": "none"
+  },
+  {
+    "path": "tests/test_transfer_integrity.py",
+    "source": "github/qwen35-ocr-finetuning/tests/test_transfer_integrity.py",
+    "source_sha256": "31feb3cd9dd92523cb282eae5c09bb2c12b3a79f07b7df050e2bd150b87b42db",
+    "transformation": "none"
+  },
+  {
+    "path": "docs/historique/README-20261002.md",
+    "source": "github/qwen35-ocr-finetuning/README.md",
+    "source_sha256": "7331668ba161eed94fec008009b6d5fd19d3b828bbef538ad5b29e18eb11e6e4",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/markdown-v3/snapshot-20261020/config.json",
+    "source": "outputs/qwen35-ocr/training-graphs-20261020/source/config.json",
+    "source_sha256": "ee2ece41f257688889f09e614a23178d5e291f3c3f645fcafef1fa22f7dd088f",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/markdown-v3/snapshot-20261020/baseline.json",
+    "source": "outputs/qwen35-ocr/training-graphs-20261020/source/baseline.json",
+    "source_sha256": "3fe29a754cf05f83203f248781ca2c43e1d6d74a746ad3efd03d2d54af95274f",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/markdown-v3/snapshot-20261020/best.json",
+    "source": "outputs/qwen35-ocr/training-graphs-20261020/source/best.json",
+    "source_sha256": "7c5966852a5527b98111390390ce619f44f4d6f1c5b01b79cbc81f38d1a19b26",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/markdown-v3/snapshot-20261020/latest.json",
+    "source": "outputs/qwen35-ocr/training-graphs-20261020/source/latest.json",
+    "source_sha256": "f8f26b566dcb9339dfe8b05a7617ce6f7709af3b928b5dd2afadd3e8c20e79cc",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/markdown-v3/snapshot-20261020/preflight.json",
+    "source": "outputs/qwen35-ocr/training-graphs-20261020/source/preflight.json",
+    "source_sha256": "a5d486aeb7c68df49871fcdc02715b7e601466b25b91ac38e0bc4d900bd9c2fc",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/markdown-v3/snapshot-20261020/started.json",
+    "source": "outputs/qwen35-ocr/training-graphs-20261020/source/started.json",
+    "source_sha256": "977a9bf492734b1e4f5c81438a1e6fa1cc745199e1beed694aa6ac18a6167edf",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/markdown-v3/snapshot-20261020/status.json",
+    "source": "outputs/qwen35-ocr/training-graphs-20261020/source/status.json",
+    "source_sha256": "3174aecbfbfb27eefb791c02d73e4bb4740751e8e275d6425013f815ae08038e",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/markdown-v3/snapshot-20261020/evals.jsonl",
+    "source": "outputs/qwen35-ocr/training-graphs-20261020/source/evals.jsonl",
+    "source_sha256": "fccf38c018e6379f5152a9e2c864e79dae17f0e7f1e7019e2a38d693c84100ff",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/markdown-v3/snapshot-20261020/metrics.jsonl",
+    "source": "outputs/qwen35-ocr/training-graphs-20261020/source/metrics.jsonl",
+    "source_sha256": "0c466decaa1ae672bbfff3a39dcc0b62654d0d312f4134fbe8b06a9d107586e7",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/markdown-v3/verified-final.json",
+    "source": "outputs/qwen35-ocr/gpu-check-20261026/verified-final-training.json",
+    "source_sha256": "6c17fc24694d4159d8c054e85a1c73b6c04e702d28a23f9d17fd60554e72e3e0",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/markdown-v3/corpus-completion.json",
+    "source": "outputs/qwen35-ocr/markdown-corpus-20261013/completed-corpus-summary.json",
+    "source_sha256": "b126f3b513979a704d982e0f03a1b3b235358635ca57c0f38f61c9032107568c",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/markdown-v3/interruption-log-redacted.txt",
+    "source": "outputs/qwen35-ocr/gpu-check-20261026/failure-log-redacted.txt",
+    "source_sha256": "97128cbce0c141ceba44195f4c125e0d5619dc1adf7fedefcf467ea33d6d89c0",
+    "transformation": "none"
+  },
+  {
+    "path": "experiments/markdown-v3/resume_entry_guard.py",
+    "source": "outputs/qwen35-ocr/gpu-check-20261026/resume_entry_guard.py",
+    "source_sha256": "54e851ad3d7bb620cfb9e9be9b98c5dc4e0e1d4cf629fb7f71a1e065151696dd",
+    "transformation": "none"
+  },
+  {
+    "path": "experiments/markdown-v3/final_validation.py",
+    "source": "outputs/qwen35-ocr/gpu-check-20261026/final-validation-source.py",
+    "source_sha256": "44093eacd86bb74d594a8a44b1ecbff395f3619de7004a62f67e4eed9949e158",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/markdown-v3/recovery-history.md",
+    "source": "outputs/qwen35-ocr/gpu-check-20261026/REPRISE-20261026.md",
+    "source_sha256": "e79bb10fe68ac9382d1ce7573b58aa5ae6c1cabc1da1dcda11584e256ca219e4",
+    "transformation": "none"
+  },
+  {
+    "path": "experiments/corrective-v1/code/train_corrective.py",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/train_corrective.py",
+    "source_sha256": "d06bd906b30c5d020656742878d1ecee3ea2d523d16a2af679ab734ea446874e",
+    "transformation": "none"
+  },
+  {
+    "path": "experiments/corrective-v1/code/profile_training_data.py",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/profile_training_data.py",
+    "source_sha256": "c12e3140287207e0ea1980cc3c3192795e196e3fc3836aa88957f05b2358efc1",
+    "transformation": "none"
+  },
+  {
+    "path": "experiments/corrective-v1/code/build_public_corpus.py",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/build_public_corpus.py",
+    "source_sha256": "41b9e307d7941aad34a1e0ac2c849f67eb54ec6238aea15218b930ac35aeff2a",
+    "transformation": "none"
+  },
+  {
+    "path": "experiments/corrective-v1/code/finalize_corpus.py",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/finalize_corpus.py",
+    "source_sha256": "2ed4d41ba02482bd2d78a2b71fb2c7fec8d03345ed9fe25ab8e8275414eb3322",
+    "transformation": "none"
+  },
+  {
+    "path": "experiments/corrective-v1/code/prepare_literal_controls.py",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/prepare_literal_controls.py",
+    "source_sha256": "eb3af1b3da51fc6c3fc102873be70fca8f8a1979f7f72f5b2f488e41ffa841e0",
+    "transformation": "none"
+  },
+  {
+    "path": "experiments/corrective-v1/code/download_nod.py",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/download_nod.py",
+    "source_sha256": "809104785341ffd75949b781b1f6635ae96c89f5c2dbf8b56a55f61674dc6a37",
+    "transformation": "none"
+  },
+  {
+    "path": "experiments/corrective-v1/corpus-manifest.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/corrective-corpus-v2/manifest.json",
+    "source_sha256": "0aaf6b139609cfb781bce9d295be3286e3f06e3d7c743dfe1e9dcaf182e5203d",
+    "transformation": "none"
+  },
+  {
+    "path": "experiments/corrective-v1/code/ocr_fidelity.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/ocr_fidelity.py",
+    "source_sha256": "a801fa1cede45422901023aa46cad0c12614600f334ab9ea908c0f3fe5452f5a",
+    "transformation": "none"
+  },
+  {
+    "path": "experiments/corrective-v1/code/lora.py",
+    "source": "github/qwen35-ocr-finetuning/scripts/lora.py",
+    "source_sha256": "3901369100bbf8d61484ca9afea116f82551e1710c1ea7649a4d33cbc80c8e12",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/config.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/config.json",
+    "source_sha256": "736eb913f05465b3574db15c310eac817697e6cb72e0bc7c94671293a301177a",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/eval-history.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/eval-history.json",
+    "source_sha256": "a444c49817d1d98839eb0639d35811f4aa5614dbf61affd14828b9c9a149d15a",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/events.jsonl",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/events.jsonl",
+    "source_sha256": "6073ef555ad2d3a052638b090fceb087674db191c86f30c98c5ee0ba8eb8cc1e",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/progress.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/progress.json",
+    "source_sha256": "d3ef7b5c2ce2fb5f13dea063b801866e348dc8f44139b36998704a5358459c56",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/training-complete.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/training-complete.json",
+    "source_sha256": "4ae96868b2505fccd16d20915baf3d7875744b472444cfeb77510b8ee0eeefef",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/checkpoints/adapter-epoch-1.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/checkpoints/adapter-epoch-1.json",
+    "source_sha256": "882b3a7f2fb9d55d7241c1282fd64b8fe58b61ddab08356d7e648ce19beabc95",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/checkpoints/adapter-epoch-2.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/checkpoints/adapter-epoch-2.json",
+    "source_sha256": "4c4281e41b4b54f914d629f5dafa0a8ddfde9266795a7d20bdcf688ea0a9018e",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/checkpoints/adapter-initial-zero-B.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/checkpoints/adapter-initial-zero-B.json",
+    "source_sha256": "dd257c94807bf5cd5a120f24de7302ee798d36e501b164c42ce652ef118efa2e",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-1/ar-02.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-1/ar-02.json",
+    "source_sha256": "7c58c35c320652c516ddf6efa7b3c093b7b5cae667f36b42398d681e9d7ef4f0",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-1/ar-02.md",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-1/ar-02.md",
+    "source_sha256": "e572137ebb3829442c339c5af2ba31e55661608d6719a4ab0c198d5b12b1475d",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-1/en-06.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-1/en-06.json",
+    "source_sha256": "ff7c532f34b70354ec5f4f95a38d78acd1e50190453c6c64c7af365b13cd3b8e",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-1/en-06.md",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-1/en-06.md",
+    "source_sha256": "be685cf77bc3de662e19120ed402d619e8ce05cd0b559a10505aa8665ea7456f",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-1/fr-01.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-1/fr-01.json",
+    "source_sha256": "abf3f90e67513b40335dcae7500e7f4f85752024a3c976705f713a41248dc5ce",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-1/fr-01.md",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-1/fr-01.md",
+    "source_sha256": "ebd78cf1982ed942173593ad2d6d3a2e9d715c4134a26d497ef14ea88ceadb7a",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-1/probe-chiffres.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-1/probe-chiffres.json",
+    "source_sha256": "f8ae5eccc2cfa771ac304f04d9033658a656378ddcf0f123fb09a8da8f39213b",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-1/probe-chiffres.md",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-1/probe-chiffres.md",
+    "source_sha256": "942d1d2e5973cdcdda32931cc1d4de2b190551c330a3cb60a58197f674822e1c",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-1/probe-fr-symboles.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-1/probe-fr-symboles.json",
+    "source_sha256": "f1284b30c7aef2a7fc510d6e9030efa766eb8c1cf38241d93602d020eff9970b",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-1/probe-fr-symboles.md",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-1/probe-fr-symboles.md",
+    "source_sha256": "164e0c64a6673861a763c831dd03c9012d76818e6e5caabd4e3613c2361e3cb6",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-1/probe-vide.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-1/probe-vide.json",
+    "source_sha256": "810fc3a9399f957fa9f4f485721f0c4b933f91888ebba788a5ae1ec3fe3242cf",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/ar-02.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/ar-02.json",
+    "source_sha256": "50ab113d6811dfee66355ec9d93acbe07adc274deeedd758b003e576482ac7d4",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/ar-02.md",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/ar-02.md",
+    "source_sha256": "cea121a3a6c357b2cfda1dc3865169a75cabf2e99ff0f2973fc001a7a0409618",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/ar-08.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/ar-08.json",
+    "source_sha256": "5580854c87c5786b2d9b218d6a3802c27428cff888e0215f6ee7e004e0ff3ace",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/ar-08.md",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/ar-08.md",
+    "source_sha256": "f7903786ebae4004e47f49acb4880b32aca3d3adb1823da12cd4d21b2b541725",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/ar-14.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/ar-14.json",
+    "source_sha256": "abfb4e07198853fac9b7ceeef85673acb65a2f3f1e1dd258a0f45c41bb32424f",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/ar-14.md",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/ar-14.md",
+    "source_sha256": "67329f95836183b3102e0eaaff0b6cc459593d3c19a2d55a977b5eab4cea2bed",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/blank-ar-validation-00.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/blank-ar-validation-00.json",
+    "source_sha256": "e34034e88e87af55abde63186e0ad10dbaa1b5398c684b39032febdcf3c6c48d",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/blank-ar-validation-00.md",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/blank-ar-validation-00.md",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/blank-en-validation-00.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/blank-en-validation-00.json",
+    "source_sha256": "ef01c0daa5cffa024774954f432f1a69bdf7854d86047db67f42b4056c0ac5ed",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/blank-en-validation-00.md",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/blank-en-validation-00.md",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/blank-fr-validation-00.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/blank-fr-validation-00.json",
+    "source_sha256": "3b00a5dcfceebd4fa6d6984b52f09567b5446fbb48ce0cd91375ad77db53e2af",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/blank-fr-validation-00.md",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/blank-fr-validation-00.md",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/control-ar-validation-01.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/control-ar-validation-01.json",
+    "source_sha256": "0f1770f0712d70e08aa2669ef2ac950dd7a079f97f3daf3efa3ad89b69fd7587",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/control-ar-validation-01.md",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/control-ar-validation-01.md",
+    "source_sha256": "73e156ec89121f61bb2dbcec492e5e5263f78a0054dc8075aa542976bad6c1a6",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/control-en-validation-02.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/control-en-validation-02.json",
+    "source_sha256": "64b7234d8fd6c8279d04820b832eb4f1fb0feb5205c46d499eb9cdd79f76f7e7",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/control-en-validation-02.md",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/control-en-validation-02.md",
+    "source_sha256": "ea4fb1185ef3b3e4e331a584f234547eb64131824fccf4f3ebd28d9f490b6dd7",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/control-fr-validation-00.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/control-fr-validation-00.json",
+    "source_sha256": "2b74a52594c2b3c83a588d31121dea3f8af54fe80c3132f7e3887962ffc608c3",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/control-fr-validation-00.md",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/control-fr-validation-00.md",
+    "source_sha256": "394539667c28428d70a9808188a5c4d9af36a785a9340d1df003e93ca0b97ae7",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/en-06.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/en-06.json",
+    "source_sha256": "63f93a4762c24380938bca2c25b8e09298cf6533adf9dad6cae875e541cba51f",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/en-06.md",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/en-06.md",
+    "source_sha256": "be685cf77bc3de662e19120ed402d619e8ce05cd0b559a10505aa8665ea7456f",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/fr-01.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/fr-01.json",
+    "source_sha256": "ffa4b061acc9077d5ef7e868cbc621d35ecd8c0aeae8eb4df0ab66e27b30984a",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/fr-01.md",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/fr-01.md",
+    "source_sha256": "ebd78cf1982ed942173593ad2d6d3a2e9d715c4134a26d497ef14ea88ceadb7a",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/fr-06.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/fr-06.json",
+    "source_sha256": "f21cfb657875e27b46edb5733fa2eb1834eb92ebf2e156517f7bc013ac2b770b",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/fr-06.md",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/fr-06.md",
+    "source_sha256": "5a357e24585350d3bb380d15ab816adc01ddf504997f20251fcfb238e39d02ed",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/probe-chiffres.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/probe-chiffres.json",
+    "source_sha256": "ed3850b7548b307634c570736ac98472d868fe2c61549ee7c3604e2a056fd27e",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/probe-chiffres.md",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/probe-chiffres.md",
+    "source_sha256": "942d1d2e5973cdcdda32931cc1d4de2b190551c330a3cb60a58197f674822e1c",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/probe-fr-symboles.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/probe-fr-symboles.json",
+    "source_sha256": "d89f62e2806344bfa5faf3ee3694bc0be5e85b907780955ade12e0aee8fc3c18",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/probe-fr-symboles.md",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/probe-fr-symboles.md",
+    "source_sha256": "164e0c64a6673861a763c831dd03c9012d76818e6e5caabd4e3613c2361e3cb6",
+    "transformation": "none"
+  },
+  {
+    "path": "results/training/corrective-v1/generations/epoch-2/probe-vide.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/retrieved-corrective/generations/epoch-2/probe-vide.json",
+    "source_sha256": "810fc3a9399f957fa9f4f485721f0c4b933f91888ebba788a5ae1ec3fe3242cf",
+    "transformation": "none"
+  },
+  {
+    "path": "reports/corrective/BILAN.md",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/rapport-correctif/BILAN.md",
+    "source_sha256": "f85b87868bdf3b8804fdd7090c38907b876b8e3f4e8bb0e7355db3ef218e249c",
+    "transformation": "none"
+  },
+  {
+    "path": "reports/corrective/mesures.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/rapport-correctif/mesures.json",
+    "source_sha256": "87c57cdd0e9cb8ab33ea72012959c81ca825dac8cbb9fbbdf16006f2dd2c1b56",
+    "transformation": "none"
+  },
+  {
+    "path": "reports/corrective/losses-correctives.png",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/rapport-correctif/losses-correctives.png",
+    "source_sha256": "7838e772411e1914526119325bcd97b16d7ce7bfda211917a2c5a465ecac6074",
+    "transformation": "none"
+  },
+  {
+    "path": "reports/diagnostic/mesures.json",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/rapport-diagnostic/mesures.json",
+    "source_sha256": "db3372c096bb58e4cca9b2c88a9e3d2e62ed25535c24395a67efab84559401c4",
+    "transformation": "none"
+  },
+  {
+    "path": "reports/diagnostic/apercu-caracteres.png",
+    "source": "outputs/qwen35-ocr/ocr-fidelity-20261027/rapport-diagnostic/apercu-caracteres.png",
+    "source_sha256": "eb8d6aaba1f9e22f8a7a6582980de4155455b4388ae48b563eebd8827b3aa1fa",
+    "transformation": "none"
+  },
+  {
+    "path": "results/benchmarks/printed-four-models/resultats.json",
+    "source": "outputs/qwen35-ocr/unlimited-ocr2-comparison-20261028/livrables/comparatif-31-images-4-modeles/resultats.json",
+    "source_sha256": "caa422ea3344992c76137eec51c3c5387434a3c40a590103e2dfe925ec91f8f0",
+    "transformation": "none"
+  },
+  {
+    "path": "results/benchmarks/printed-four-models/metriques.csv",
+    "source": "outputs/qwen35-ocr/unlimited-ocr2-comparison-20261028/livrables/comparatif-31-images-4-modeles/metriques.csv",
+    "source_sha256": "c7686ef6171940660fbfac742b716696052f0779f4a9caa6262581a0fb2b68f5",
+    "transformation": "none"
+  },
+  {
+    "path": "results/benchmarks/printed-four-models/jeu.json",
+    "source": "outputs/qwen35-ocr/unlimited-ocr2-comparison-20261028/livrables/comparatif-31-images-4-modeles/jeu.json",
+    "source_sha256": "4c472f31fc75dbd6c16af49b251a49849a69f0cc18b7d279c84f8471d691f289",
+    "transformation": "none"
+  },
+  {
+    "path": "evaluation/four_models/metrics.py",
+    "source": "outputs/qwen35-ocr/unlimited-ocr2-comparison-20261028/livrables/comparatif-31-images-4-modeles/code/metrics.py",
+    "source_sha256": "cf722633e433df233a023c218e1a7103c4e4dc2bd7f95e302fbc1062030a00a2",
+    "transformation": "none"
+  },
+  {
+    "path": "evaluation/four_models/mesures_visibles.py",
+    "source": "outputs/qwen35-ocr/unlimited-ocr2-comparison-20261028/livrables/comparatif-31-images-4-modeles/code/mesures_visibles.py",
+    "source_sha256": "cb92419a929ddd6ff31b6825fe0470286ffd657066a2a3727e3d57de90a12a9a",
+    "transformation": "none"
+  },
+  {
+    "path": "evaluation/four_models/unlimited_format.py",
+    "source": "outputs/qwen35-ocr/unlimited-ocr2-comparison-20261028/livrables/comparatif-31-images-4-modeles/code/unlimited_format.py",
+    "source_sha256": "3e5cbed82db36bb71d9947ca585e43d3fcb84a947786631fae22dafe98f70701",
+    "transformation": "none"
+  },
+  {
+    "path": "evaluation/four_models/test_unlimited_format.py",
+    "source": "outputs/qwen35-ocr/unlimited-ocr2-comparison-20261028/livrables/comparatif-31-images-4-modeles/code/test_unlimited_format.py",
+    "source_sha256": "2d74dd9d9f0e07f76ae9e74f51829e7f851957f6727ecd0734f81cdbe735c4a0",
+    "transformation": "none"
+  },
+  {
+    "path": "evaluation/four_models/run_unlimited_native.py",
+    "source": "outputs/qwen35-ocr/unlimited-ocr2-comparison-20261028/livrables/comparatif-31-images-4-modeles/code/run_unlimited_native.py",
+    "source_sha256": "e2ca06f41e0954c8ec679a257ec0b5b1712a1df4a1345e2ba6d68c2246aac93e",
+    "transformation": "none"
+  },
+  {
+    "path": "evaluation/four_models/verifier_unlimited.py",
+    "source": "outputs/qwen35-ocr/unlimited-ocr2-comparison-20261028/livrables/comparatif-31-images-4-modeles/code/verifier_unlimited.py",
+    "source_sha256": "dd52a1b97715e053f523ae44c01dd1d158363927aa6a170058635453ef86cd5d",
+    "transformation": "none"
+  },
+  {
+    "path": "evaluation/four_models/model-lock.json",
+    "source": "outputs/qwen35-ocr/unlimited-ocr2-comparison-20261028/livrables/comparatif-31-images-4-modeles/code/model-lock.json",
+    "source_sha256": "6df37e84783dd702e5d36a4961850143e175927ef1246f1bbef36f1248aaca4d",
+    "transformation": "none"
+  },
+  {
+    "path": "reports/printed-four-models.md",
+    "source": "outputs/qwen35-ocr/unlimited-ocr2-comparison-20261028/livrables/comparatif-31-images-4-modeles/CONCLUSION.md",
+    "source_sha256": "8a451e728ced8866c0f90bab8cdc57820fe66bcfd9062992b6c818bdaca3ea48",
+    "transformation": "none"
+  },
+  {
+    "path": "results/benchmarks/printed-four-models/checkpoint-teste.json",
+    "source": "outputs/qwen35-ocr/unlimited-ocr2-comparison-20261028/livrables/comparatif-31-images-4-modeles/checkpoint-historique-teste.json",
+    "source_sha256": "613d85d1e03d03b8b09e88a5bba3938c2c5da94ab36539443d34ed9c8050ade4",
+    "transformation": "none"
+  },
+  {
+    "path": "results/benchmarks/printed-mistral-unlimited/resultats.json",
+    "source": "outputs/qwen35-ocr/mistral-unlimited-comparison-20261029/livrables/comparatif-mistral-unlimited/resultats.json",
+    "source_sha256": "ae7af0389e97a96009131bb69a61dcda9b3209ce16f591ea5db36e11c8a285e5",
+    "transformation": "none"
+  },
+  {
+    "path": "results/benchmarks/printed-mistral-unlimited/metriques.csv",
+    "source": "outputs/qwen35-ocr/mistral-unlimited-comparison-20261029/livrables/comparatif-mistral-unlimited/metriques.csv",
+    "source_sha256": "84922d0438e1359c8cca1ff0d03095c9526c3802848e43248dc78693093324ea",
+    "transformation": "none"
+  },
+  {
+    "path": "results/benchmarks/printed-mistral-unlimited/jeu.json",
+    "source": "outputs/qwen35-ocr/mistral-unlimited-comparison-20261029/livrables/comparatif-mistral-unlimited/jeu.json",
+    "source_sha256": "82172d83969fbb609b9a2c3f2f11b89f4518fa0751fb5a44e6563c6e3b0e2c49",
+    "transformation": "none"
+  },
+  {
+    "path": "evaluation/printed/metrics.py",
+    "source": "outputs/qwen35-ocr/mistral-unlimited-comparison-20261029/livrables/comparatif-mistral-unlimited/code/metrics.py",
+    "source_sha256": "b60862bdb4c67d5949f8478d563919572cf35699db86ce80f502b9f45e3f6741",
+    "transformation": "none"
+  },
+  {
+    "path": "evaluation/printed/verify_metrics.py",
+    "source": "outputs/qwen35-ocr/mistral-unlimited-comparison-20261029/livrables/comparatif-mistral-unlimited/code/verify_metrics.py",
+    "source_sha256": "36e594ae1b3ef008b42ec0527b391d87796ac77ecb5d55f58db591fb24e40a25",
+    "transformation": "none"
+  },
+  {
+    "path": "evaluation/printed/run_mistral.py",
+    "source": "outputs/qwen35-ocr/mistral-unlimited-comparison-20261029/livrables/comparatif-mistral-unlimited/code/run_mistral.py",
+    "source_sha256": "e0c3abac5c1673fdb5fa614e3d1ea1935a481717747ede7ec4cb5f96cbce2c65",
+    "transformation": "none"
+  },
+  {
+    "path": "reports/printed/rapport-scientifique.pdf",
+    "source": "outputs/qwen35-ocr/mistral-unlimited-comparison-20261029/livrables/comparatif-mistral-unlimited/rapport-scientifique.pdf",
+    "source_sha256": "67c748370679723019bd363758065ebb512f624e23852dd29825b6a56b9a39cb",
+    "transformation": "none"
+  },
+  {
+    "path": "reports/printed/rapport-scientifique.md",
+    "source": "outputs/qwen35-ocr/mistral-unlimited-comparison-20261029/livrables/comparatif-mistral-unlimited/rapport-scientifique.md",
+    "source_sha256": "75f8812df9efbb0cbd9fcb47300796e0c4ada4841fc5189b1de59556a5f155ef",
+    "transformation": "none"
+  },
+  {
+    "path": "reports/printed/graphes/cer-apparie.png",
+    "source": "outputs/qwen35-ocr/mistral-unlimited-comparison-20261029/livrables/comparatif-mistral-unlimited/graphes/cer-apparie.png",
+    "source_sha256": "28cb84ba8d100e269f18e816120dfbf00a09c31bcb0448e2c34d7007b572caae",
+    "transformation": "none"
+  },
+  {
+    "path": "reports/printed/graphes/cer-wer-par-langue.png",
+    "source": "outputs/qwen35-ocr/mistral-unlimited-comparison-20261029/livrables/comparatif-mistral-unlimited/graphes/cer-wer-par-langue.png",
+    "source_sha256": "e5f7fa3b863f99255ade624340a53189b36e2d06d2dacc4b4375249896a80c7a",
+    "transformation": "none"
+  },
+  {
+    "path": "reports/printed/graphes/difference-cer-31-pages.png",
+    "source": "outputs/qwen35-ocr/mistral-unlimited-comparison-20261029/livrables/comparatif-mistral-unlimited/graphes/difference-cer-31-pages.png",
+    "source_sha256": "1aa425c1ec0895ec8a4610417936d7f72d00025651833391ba99db6216ea2d8e",
+    "transformation": "none"
+  },
+  {
+    "path": "reports/printed/graphes/exemples-documents.png",
+    "source": "outputs/qwen35-ocr/mistral-unlimited-comparison-20261029/livrables/comparatif-mistral-unlimited/graphes/exemples-documents.png",
+    "source_sha256": "6419e4eea878b5cba0072f793edbf8fc31365193c4710ed62141cd76078261dd",
+    "transformation": "none"
+  },
+  {
+    "path": "results/benchmarks/handwritten-mistral-unlimited/resultats.json",
+    "source": "outputs/qwen35-ocr/handwriting-comparison-20261029/livrables/comparatif-manuscrit-31/resultats.json",
+    "source_sha256": "a6a7b1af7b821924ad78a646ecb865b6701975961fbb45ce4c3f6c2870635183",
+    "transformation": "none"
+  },
+  {
+    "path": "results/benchmarks/handwritten-mistral-unlimited/metriques.csv",
+    "source": "outputs/qwen35-ocr/handwriting-comparison-20261029/livrables/comparatif-manuscrit-31/metriques.csv",
+    "source_sha256": "b2c569c6b6ad6614abd22cf8fbe2c6510f1269a80f35d6526ba10b845121104c",
+    "transformation": "none"
+  },
+  {
+    "path": "results/benchmarks/handwritten-mistral-unlimited/jeu.json",
+    "source": "outputs/qwen35-ocr/handwriting-comparison-20261029/livrables/comparatif-manuscrit-31/jeu.json",
+    "source_sha256": "5409a6dc85ad4b744fd54c70d041fb060b475cf1c882d8e246f41919ec02bba3",
+    "transformation": "none"
+  },
+  {
+    "path": "evaluation/handwriting/metrics.py",
+    "source": "outputs/qwen35-ocr/handwriting-comparison-20261029/livrables/comparatif-manuscrit-31/code/metrics.py",
+    "source_sha256": "b60862bdb4c67d5949f8478d563919572cf35699db86ce80f502b9f45e3f6741",
+    "transformation": "none"
+  },
+  {
+    "path": "evaluation/handwriting/verify_metrics.py",
+    "source": "outputs/qwen35-ocr/handwriting-comparison-20261029/livrables/comparatif-manuscrit-31/code/verify_metrics.py",
+    "source_sha256": "36e594ae1b3ef008b42ec0527b391d87796ac77ecb5d55f58db591fb24e40a25",
+    "transformation": "none"
+  },
+  {
+    "path": "evaluation/handwriting/prepare_dataset.py",
+    "source": "outputs/qwen35-ocr/handwriting-comparison-20261029/prepare_dataset.py",
+    "source_sha256": "e8c4deaeb064324a13a3c65637120a8dbff69aaaa42480d216fa4aefe42ef66c",
+    "transformation": "none"
+  },
+  {
+    "path": "evaluation/handwriting/remote_zip.py",
+    "source": "outputs/qwen35-ocr/handwriting-comparison-20261029/remote_zip.py",
+    "source_sha256": "ef4ecf5fec3d3b97112759fa8fa5d4c64b95bb175feab7c5e45ed885905e75db",
+    "transformation": "none"
+  },
+  {
+    "path": "evaluation/handwriting/run_mistral.py",
+    "source": "outputs/qwen35-ocr/handwriting-comparison-20261029/run_mistral.py",
+    "source_sha256": "b5754a28ff71b8d25cd72fe7595e8ecebe753ec60d17e4d5d53f5a38b3e8ac80",
+    "transformation": "none"
+  },
+  {
+    "path": "evaluation/handwriting/run_unlimited_vm.py",
+    "source": "outputs/qwen35-ocr/handwriting-comparison-20261029/run_unlimited_vm.py",
+    "source_sha256": "519190cf777c469d74d68e9814d9b9f7b92cc7ddf8553d3c1b6a74b773e093c6",
+    "transformation": "none"
+  },
+  {
+    "path": "reports/handwriting/rapport-manuscrit.pdf",
+    "source": "outputs/qwen35-ocr/handwriting-comparison-20261029/livrables/comparatif-manuscrit-31/rapport-manuscrit.pdf",
+    "source_sha256": "de194b2eae089b438b0e11fbc08896bc245ebd18ea11c84e8722687b055aed73",
+    "transformation": "none"
+  },
+  {
+    "path": "reports/handwriting/rapport-manuscrit.md",
+    "source": "outputs/qwen35-ocr/handwriting-comparison-20261029/livrables/comparatif-manuscrit-31/rapport-manuscrit.md",
+    "source_sha256": "62170801209bfe23a510717cb5fe4d5dba46b9d7e738dcfee05c2566e293be1c",
+    "transformation": "none"
+  },
+  {
+    "path": "reports/handwriting/graphes/cer-par-langue.png",
+    "source": "outputs/qwen35-ocr/handwriting-comparison-20261029/livrables/comparatif-manuscrit-31/graphes/cer-par-langue.png",
+    "source_sha256": "82c464afd578f928c7a5f06f571782806cf436194add19b64736903186e41863",
+    "transformation": "none"
+  },
+  {
+    "path": "reports/handwriting/graphes/exemples-manuscrits.png",
+    "source": "outputs/qwen35-ocr/handwriting-comparison-20261029/livrables/comparatif-manuscrit-31/graphes/exemples-manuscrits.png",
+    "source_sha256": "70b0abc47268f8fc25540277e36d0f994fc837f8f4d217810e1a3330df6564eb",
+    "transformation": "none"
+  },
+  {
+    "path": "reports/handwriting/graphes/wer-par-langue.png",
+    "source": "outputs/qwen35-ocr/handwriting-comparison-20261029/livrables/comparatif-manuscrit-31/graphes/wer-par-langue.png",
+    "source_sha256": "86fe023bfb4dba6ea89310408f6d27337015b17297a5559fa7e0cc149d2434d1",
+    "transformation": "none"
+  },
+  {
+    "path": "scripts/sync_hf_to_s3.py",
+    "source": "outputs/qwen35-ocr/scripts/sync_hf_to_s3.py",
+    "source_sha256": "41e1564b5f34d343d9220c75b25e5aef40b5efe3851513932631750533e34331",
+    "transformation": "none"
+  }
+]

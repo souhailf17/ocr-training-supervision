@@ -1,0 +1,29 @@
+{
+  "checkpoint": {
+    "sha256": "21fa40cbe4d2f1f7f787c950635f698667bc6c45cb198d1773a54b9412b1b56e",
+    "global_step": 7878,
+    "full_samples": 1196288,
+    "filename": "checkpoint-7878.pt"
+  },
+  "global_step": 7878,
+  "processed_examples": 1196288,
+  "total_examples": 3683080,
+  "progress_percent": 32.480641202471844,
+  "remaining_examples": 2486792,
+  "train_loss_last": 0.15090828762408037,
+  "train_loss_median_last_100": 0.1500656055092141,
+  "eval_loss_first": 0.36280097916423354,
+  "eval_loss_last": 0.32653331780324524,
+  "eval_loss_best": 0.32653331780324524,
+  "eval_loss_improvement_percent": 9.996572072251926,
+  "learning_rate": 7.608300621008154e-05,
+  "update_seconds_last": 45.892680406570435,
+  "throughput_examples_per_second": 5.496917405579604,
+  "elapsed_seconds_this_continuation": 71487.46406340599,
+  "world_size": 4,
+  "global_batch": 256,
+  "microbatch": 1,
+  "gradient_accumulation": 64,
+  "stop_reason": "requested_stop",
+  "snapshot_note": "Historical parent checkpoint before the microbatch-3 continuation. This is not the latest progress or an ETA."
+}

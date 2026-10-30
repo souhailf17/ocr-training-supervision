@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "ranks": [
+    {
+      "rank": 0,
+      "parameter_max_error": 0.0,
+      "loss_error": 0.0,
+      "kernel_calls": {
+        "causal_conv1d_fn": 2304,
+        "chunk_gated_delta_rule": 2304
+      },
+      "gpu": "NVIDIA H200 NVL"
+    }
+  ],
+  "verified_pvc_s3_checkpoint": {
+    "path": "/work/q35ocr-20260921-p560/training-markdown-v3-orig-aug1/checkpoints/checkpoint-preflight-000000.pt",
+    "key": "training-markdown-v3-orig-aug1/checkpoints/checkpoint-preflight-000000.pt",
+    "sha256": "a29547ffb26aecfac9636d78189d0ec7e41da0cf8968feb52f130376b6391ed3",
+    "phase_step": 1,
+    "phase_samples": 16,
+    "global_step": 14356
+  },
+  "rolled_back_before_training": true,
+  "gates": [
+    "complete-corpus-markdown",
+    "finite-gradients",
+    "parameter-update",
+    "DDP-equal-weights",
+    "exact-resume",
+    "actual-FLA-conv",
+    "new-cursor-zero"
+  ]
+}

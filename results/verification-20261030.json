@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-30",
+  "portable_test_modules": [
+    "test_annotation_targets",
+    "test_table_phase_state",
+    "test_training_config",
+    "test_ordered_prefetch",
+    "test_ocr_fidelity",
+    "test_markdown_table_targets",
+    "test_markdown_pipeline_controller",
+    "test_training_table_ranges",
+    "test_refresh_table_selection"
+  ],
+  "tests_run": 60,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "full_suite": "not validated on this Windows runtime: pytest, boto3/botocore, markdown-it and Unix fcntl unavailable",
+  "benchmark_score_recomputation": "248 individual and all aggregate scores reproduced exactly",
+  "network_or_gpu_used_in_checks": false
+}

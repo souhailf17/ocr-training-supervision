@@ -1,0 +1,8 @@
+{
+  "id": "probe-vide",
+  "text": "",
+  "stop_reason": "verified_exact_blank",
+  "model_invoked": false,
+  "image_sha256": "1e6ac49dd7a93a0fb926b037bcc2bba2a8f317f786175d3661b58a75198ee576",
+  "ground_truth_given_to_model": false
+}

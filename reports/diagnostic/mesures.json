@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-28",
+  "phase": "diagnosis_and_public_corpus_prepared; corrective_training_not_started_due_to_HPC_connectivity",
+  "final_checkpoint": 4796,
+  "historical_checkpoint_sha256": "0d9cdd97a3d30bdf432ae198784c9ca55d071d3c269f118d75bf6c55bf211d92",
+  "actual_diagnostic_generations": 24,
+  "profiles": {
+    "original": {
+      "outputs": 9,
+      "stops": {
+        "time_limit_or_other": 1,
+        "eos": 7,
+        "token_limit": 1
+      },
+      "flagged_for_review": 4
+    },
+    "literal_guarded": {
+      "outputs": 9,
+      "stops": {
+        "eos": 9
+      },
+      "flagged_for_review": 3
+    },
+    "base_literal": {
+      "outputs": 6,
+      "stops": {
+        "eos": 6
+      },
+      "flagged_for_review": 0
+    }
+  },
+  "limits": {
+    "max_new_tokens": 2048,
+    "max_seconds": 180,
+    "image_max_dimension": 1024,
+    "context_tokens": 8192
+  },
+  "references_sent_to_generation": false,
+  "corrected_weights_available": false,
+  "hallucination_free_guarantee": false,
+  "data_audit": {
+    "sampled_training_examples": 45156,
+    "arabic_dominant": 43968,
+    "latin_dominant": 1152,
+    "other": 36,
+    "arabic_indic_digit_codepoints_in_sample": 0,
+    "latin_digit_codepoints_in_sample": 862852,
+    "sampled_shards": 5,
+    "total_shards": 206,
+    "all_corpus_audited": false
+  },
+  "public_corpus": {
+    "directory": "../corrective-corpus-v2",
+    "total": 375,
+    "train": 300,
+    "validation": 75,
+    "language_balance": "100 training + 25 validation per language",
+    "publisher_transcriptions_not_all_independently_verified": true,
+    "pending": "CPU recheck of filtered v2 and bounded training + generation validation"
+  }
+}

@@ -1,0 +1,758 @@
+{
+  "printed-four-models": {
+    "labels": {
+      "apres": "Notre OCR — checkpoint 4707",
+      "avant": "Qwen3.5-9B de base",
+      "mocr": "dots.mocr",
+      "unlimited": "Unlimited-OCR-2"
+    },
+    "aggregate": {
+      "all": {
+        "apres": {
+          "expected": 31,
+          "attempted": 31,
+          "scored": 31,
+          "cer": 95.17555334624039,
+          "wer": 109.96345657781599,
+          "median_page_cer": 23.60248447204969,
+          "non_eos_cases": [
+            "ar-02",
+            "ar-04",
+            "fr-01",
+            "fr-03",
+            "fr-05",
+            "fr-07",
+            "fr-08",
+            "en-01",
+            "en-02"
+          ]
+        },
+        "avant": {
+          "expected": 31,
+          "attempted": 31,
+          "scored": 31,
+          "cer": 61.59279995813929,
+          "wer": 72.871883061049,
+          "median_page_cer": 12.890625,
+          "non_eos_cases": [
+            "ar-01",
+            "ar-03",
+            "ar-05",
+            "ar-08",
+            "ar-09",
+            "fr-02",
+            "fr-04",
+            "en-02"
+          ]
+        },
+        "mocr": {
+          "expected": 31,
+          "attempted": 31,
+          "scored": 31,
+          "cer": 571.2242513037867,
+          "wer": 19.249785038693034,
+          "median_page_cer": 6.172839506172839,
+          "non_eos_cases": [
+            "fr-07"
+          ]
+        },
+        "unlimited": {
+          "expected": 31,
+          "attempted": 31,
+          "scored": 31,
+          "cer": 7.482601643032808,
+          "wer": 14.7463456577816,
+          "median_page_cer": 3.598326359832636,
+          "non_eos_cases": []
+        }
+      },
+      "ar": {
+        "apres": {
+          "expected": 15,
+          "attempted": 15,
+          "scored": 15,
+          "cer": 59.50442124194435,
+          "wer": 72.70545890821836,
+          "median_page_cer": 15.965263861055444,
+          "non_eos_cases": [
+            "ar-02",
+            "ar-04"
+          ]
+        },
+        "avant": {
+          "expected": 15,
+          "attempted": 15,
+          "scored": 15,
+          "cer": 127.23684867862318,
+          "wer": 148.47030593881223,
+          "median_page_cer": 21.256038647342994,
+          "non_eos_cases": [
+            "ar-01",
+            "ar-03",
+            "ar-05",
+            "ar-08",
+            "ar-09"
+          ]
+        },
+        "mocr": {
+          "expected": 15,
+          "attempted": 15,
+          "scored": 15,
+          "cer": 14.582604785931958,
+          "wer": 29.544091181763648,
+          "median_page_cer": 8.333333333333334,
+          "non_eos_cases": []
+        },
+        "unlimited": {
+          "expected": 15,
+          "attempted": 15,
+          "scored": 15,
+          "cer": 9.67177898786032,
+          "wer": 24.29514097180564,
+          "median_page_cer": 8.0078125,
+          "non_eos_cases": []
+        }
+      },
+      "fr": {
+        "apres": {
+          "expected": 8,
+          "attempted": 8,
+          "scored": 8,
+          "cer": 156.8601199138483,
+          "wer": 182.5142857142857,
+          "median_page_cer": 57.5114899925871,
+          "non_eos_cases": [
+            "fr-01",
+            "fr-03",
+            "fr-05",
+            "fr-07",
+            "fr-08"
+          ]
+        },
+        "avant": {
+          "expected": 8,
+          "attempted": 8,
+          "scored": 8,
+          "cer": 39.94411781826649,
+          "wer": 41.06666666666667,
+          "median_page_cer": 19.361260048795586,
+          "non_eos_cases": [
+            "fr-02",
+            "fr-04"
+          ]
+        },
+        "mocr": {
+          "expected": 8,
+          "attempted": 8,
+          "scored": 8,
+          "cer": 1885.5754118400373,
+          "wer": 22.514285714285716,
+          "median_page_cer": 10.928832244926621,
+          "non_eos_cases": [
+            "fr-07"
+          ]
+        },
+        "unlimited": {
+          "expected": 8,
+          "attempted": 8,
+          "scored": 8,
+          "cer": 10.408056347866582,
+          "wer": 13.371428571428572,
+          "median_page_cer": 2.930467465351186,
+          "non_eos_cases": []
+        }
+      },
+      "en": {
+        "apres": {
+          "expected": 8,
+          "attempted": 8,
+          "scored": 8,
+          "cer": 78.01062720365496,
+          "wer": 90.1644245142003,
+          "median_page_cer": 40.05172440249379,
+          "non_eos_cases": [
+            "en-01",
+            "en-02"
+          ]
+        },
+        "avant": {
+          "expected": 8,
+          "attempted": 8,
+          "scored": 8,
+          "cer": 14.808561354720167,
+          "wer": 22.4813153961136,
+          "median_page_cer": 6.049479266013047,
+          "non_eos_cases": [
+            "en-02"
+          ]
+        },
+        "mocr": {
+          "expected": 8,
+          "attempted": 8,
+          "scored": 8,
+          "cer": 3.2676168247504593,
+          "wer": 6.4275037369207775,
+          "median_page_cer": 1.9812731749627581,
+          "non_eos_cases": []
+        },
+        "unlimited": {
+          "expected": 8,
+          "attempted": 8,
+          "scored": 8,
+          "cer": 2.8107463872473555,
+          "wer": 6.307922272047833,
+          "median_page_cer": 1.7689172192473803,
+          "non_eos_cases": []
+        }
+      }
+    },
+    "images": 31
+  },
+  "printed-mistral-unlimited": {
+    "labels": {
+      "mistral": "Mistral OCR 4.1 via API",
+      "unlimited": "Unlimited OCR 2"
+    },
+    "aggregate": {
+      "all": {
+        "unlimited": {
+          "n": 31,
+          "character_errors": 4290,
+          "reference_characters": 57333,
+          "word_errors": 1372,
+          "reference_words": 9304,
+          "cer": 7.482601643032808,
+          "wer": 14.7463456577816,
+          "macro_cer": 9.730997902881068,
+          "macro_wer": 19.261832472186963,
+          "median_cer": 3.598326359832636,
+          "median_wer": 12.903225806451612,
+          "median_observed_seconds": 39.82849657908082,
+          "measured_timing_protocol": "historical native GPU inference"
+        },
+        "mistral": {
+          "n": 31,
+          "character_errors": 3381,
+          "reference_characters": 57333,
+          "word_errors": 1076,
+          "reference_words": 9304,
+          "cer": 5.8971273088797025,
+          "wer": 11.564918314703354,
+          "macro_cer": 7.559329356288192,
+          "macro_wer": 14.085582955422154,
+          "median_cer": 3.6675951717734447,
+          "median_wer": 8.26771653543307,
+          "median_observed_seconds": 2.225674399873242,
+          "measured_timing_protocol": "HTTP client round trip"
+        },
+        "difference_mistral_minus_unlimited_pp": {
+          "cer": -1.5854743341531057,
+          "wer": -3.181427343078246
+        },
+        "relative_error_reduction_pct": {
+          "cer": 21.18881118881119,
+          "wer": 21.574344023323615
+        },
+        "wins": {
+          "cer": {
+            "mistral": 21,
+            "unlimited": 8
+          },
+          "wer": {
+            "mistral": 22,
+            "unlimited": 8
+          }
+        },
+        "bootstrap": {
+          "method": "paired language-stratified document-cluster percentile bootstrap",
+          "seed": 20261029,
+          "replicates": 20000,
+          "independent_document_clusters": 23,
+          "clusters_by_language": {
+            "ar": 7,
+            "fr": 8,
+            "en": 8
+          },
+          "difference": "Mistral minus Unlimited in percentage points; negative favors Mistral",
+          "interval_95": {
+            "cer": [
+              -2.4802683413055906,
+              -0.7878505708892455
+            ],
+            "wer": [
+              -5.001147444665231,
+              -1.8183774478157957
+            ]
+          }
+        }
+      },
+      "ar": {
+        "unlimited": {
+          "n": 15,
+          "character_errors": 1936,
+          "reference_characters": 20017,
+          "word_errors": 810,
+          "reference_words": 3334,
+          "cer": 9.67177898786032,
+          "wer": 24.29514097180564,
+          "macro_cer": 10.150034590191439,
+          "macro_wer": 26.768573878595674,
+          "median_cer": 8.0078125,
+          "median_wer": 15.254237288135593,
+          "median_observed_seconds": 31.7781710838899,
+          "measured_timing_protocol": "historical native GPU inference"
+        },
+        "mistral": {
+          "n": 15,
+          "character_errors": 1240,
+          "reference_characters": 20017,
+          "word_errors": 602,
+          "reference_words": 3334,
+          "cer": 6.194734475695658,
+          "wer": 18.056388722255548,
+          "macro_cer": 6.307990617705738,
+          "macro_wer": 17.90288648587542,
+          "median_cer": 4.7560975609756095,
+          "median_wer": 10.565110565110565,
+          "median_observed_seconds": 2.044129300164059,
+          "measured_timing_protocol": "HTTP client round trip"
+        },
+        "difference_mistral_minus_unlimited_pp": {
+          "cer": -3.477044512164661,
+          "wer": -6.238752249550092
+        },
+        "relative_error_reduction_pct": {
+          "cer": 35.9504132231405,
+          "wer": 25.67901234567902
+        },
+        "wins": {
+          "cer": {
+            "mistral": 10,
+            "unlimited": 4
+          },
+          "wer": {
+            "mistral": 13,
+            "unlimited": 2
+          }
+        },
+        "bootstrap": {
+          "method": "paired language-stratified document-cluster percentile bootstrap",
+          "seed": 20261029,
+          "replicates": 20000,
+          "independent_document_clusters": 7,
+          "clusters_by_language": {
+            "ar": 7
+          },
+          "difference": "Mistral minus Unlimited in percentage points; negative favors Mistral",
+          "interval_95": {
+            "cer": [
+              -6.645455202834623,
+              -1.3628676592499258
+            ],
+            "wer": [
+              -11.435726210350586,
+              -3.0460624071322426
+            ]
+          }
+        }
+      },
+      "fr": {
+        "unlimited": {
+          "n": 8,
+          "character_errors": 1788,
+          "reference_characters": 17179,
+          "word_errors": 351,
+          "reference_words": 2625,
+          "cer": 10.408056347866582,
+          "wer": 13.371428571428572,
+          "macro_cer": 15.31404955538695,
+          "macro_wer": 17.089281274777075,
+          "median_cer": 2.930467465351186,
+          "median_wer": 10.555147957935926,
+          "median_observed_seconds": 40.1421411675401,
+          "measured_timing_protocol": "historical native GPU inference"
+        },
+        "mistral": {
+          "n": 8,
+          "character_errors": 1668,
+          "reference_characters": 17179,
+          "word_errors": 317,
+          "reference_words": 2625,
+          "cer": 9.709529076197683,
+          "wer": 12.076190476190476,
+          "macro_cer": 14.82291739268606,
+          "macro_wer": 16.04073905517835,
+          "median_cer": 3.3320119802677945,
+          "median_wer": 11.335845022683422,
+          "median_observed_seconds": 2.1701764999888837,
+          "measured_timing_protocol": "HTTP client round trip"
+        },
+        "difference_mistral_minus_unlimited_pp": {
+          "cer": -0.6985272716688993,
+          "wer": -1.295238095238096
+        },
+        "relative_error_reduction_pct": {
+          "cer": 6.711409395973166,
+          "wer": 9.686609686609692
+        },
+        "wins": {
+          "cer": {
+            "mistral": 6,
+            "unlimited": 2
+          },
+          "wer": {
+            "mistral": 5,
+            "unlimited": 3
+          }
+        },
+        "bootstrap": {
+          "method": "paired language-stratified document-cluster percentile bootstrap",
+          "seed": 20261029,
+          "replicates": 20000,
+          "independent_document_clusters": 8,
+          "clusters_by_language": {
+            "fr": 8
+          },
+          "difference": "Mistral minus Unlimited in percentage points; negative favors Mistral",
+          "interval_95": {
+            "cer": [
+              -1.779359430604982,
+              0.32568238213399464
+            ],
+            "wer": [
+              -3.1877213695395534,
+              0.18716961618018826
+            ]
+          }
+        }
+      },
+      "en": {
+        "unlimited": {
+          "n": 8,
+          "character_errors": 566,
+          "reference_characters": 20137,
+          "word_errors": 211,
+          "reference_words": 3345,
+          "cer": 2.8107463872473555,
+          "wer": 6.307922272047833,
+          "macro_cer": 3.362252461668242,
+          "macro_wer": 7.359243532580514,
+          "median_cer": 1.7689172192473803,
+          "median_wer": 5.925925925925926,
+          "median_observed_seconds": 59.294930851086974,
+          "measured_timing_protocol": "historical native GPU inference"
+        },
+        "mistral": {
+          "n": 8,
+          "character_errors": 473,
+          "reference_characters": 20137,
+          "word_errors": 157,
+          "reference_words": 3345,
+          "cer": 2.3489099667279136,
+          "wer": 4.693572496263079,
+          "macro_cer": 2.642001454732422,
+          "macro_wer": 4.97298273606608,
+          "median_cer": 1.654801022270902,
+          "median_wer": 4.77261090164316,
+          "median_observed_seconds": 2.5130865999963135,
+          "measured_timing_protocol": "HTTP client round trip"
+        },
+        "difference_mistral_minus_unlimited_pp": {
+          "cer": -0.46183642051944185,
+          "wer": -1.6143497757847536
+        },
+        "relative_error_reduction_pct": {
+          "cer": 16.431095406360424,
+          "wer": 25.59241706161138
+        },
+        "wins": {
+          "cer": {
+            "mistral": 5,
+            "unlimited": 2
+          },
+          "wer": {
+            "mistral": 4,
+            "unlimited": 3
+          }
+        },
+        "bootstrap": {
+          "method": "paired language-stratified document-cluster percentile bootstrap",
+          "seed": 20261029,
+          "replicates": 20000,
+          "independent_document_clusters": 8,
+          "clusters_by_language": {
+            "en": 8
+          },
+          "difference": "Mistral minus Unlimited in percentage points; negative favors Mistral",
+          "interval_95": {
+            "cer": [
+              -1.27457153613801,
+              -0.004707876277011691
+            ],
+            "wer": [
+              -4.258777633289987,
+              0.1325820351342391
+            ]
+          }
+        }
+      }
+    },
+    "images": 31
+  },
+  "handwritten-mistral-unlimited": {
+    "labels": {
+      "mistral": "Mistral OCR 4.1",
+      "unlimited": "Unlimited OCR 2"
+    },
+    "aggregate": {
+      "all": {
+        "mistral": {
+          "expected": 31,
+          "scored": 31,
+          "cer": 56.56833468225838,
+          "wer": 75.17709563164108,
+          "character_errors": 20269,
+          "reference_characters": 35831,
+          "word_errors": 5094,
+          "reference_words": 6776,
+          "macro_cer": 39.938246001618836,
+          "median_cer": 21.44638403990025,
+          "median_wer": 55.26315789473684,
+          "median_seconds": 1.79141839989461,
+          "repetition_flagged_cases": [
+            "ar-01",
+            "ar-02",
+            "ar-03",
+            "ar-04",
+            "ar-05",
+            "ar-11",
+            "ar-12",
+            "ar-13",
+            "en-06"
+          ],
+          "non_eos_cases": []
+        },
+        "unlimited": {
+          "expected": 31,
+          "scored": 31,
+          "cer": 250.38653679774498,
+          "wer": 340.495867768595,
+          "character_errors": 89716,
+          "reference_characters": 35831,
+          "word_errors": 23072,
+          "reference_words": 6776,
+          "macro_cer": 360.5344254890084,
+          "median_cer": 38.4963768115942,
+          "median_wer": 88.73239436619718,
+          "median_seconds": 12.809908203780651,
+          "repetition_flagged_cases": [
+            "ar-01",
+            "ar-02",
+            "ar-03",
+            "ar-04",
+            "ar-05",
+            "ar-11",
+            "ar-12",
+            "ar-13",
+            "ar-14",
+            "en-08"
+          ],
+          "non_eos_cases": [
+            "ar-01",
+            "ar-02",
+            "ar-03",
+            "ar-04",
+            "ar-05",
+            "ar-11",
+            "ar-12",
+            "ar-13",
+            "ar-14",
+            "en-08"
+          ]
+        },
+        "paired_count": 31,
+        "wins": {
+          "cer": {
+            "mistral": 29,
+            "unlimited": 2
+          },
+          "wer": {
+            "mistral": 27,
+            "unlimited": 4
+          }
+        }
+      },
+      "ar": {
+        "mistral": {
+          "expected": 15,
+          "scored": 15,
+          "cer": 79.90613807583055,
+          "wer": 98.20599409033348,
+          "character_errors": 19410,
+          "reference_characters": 24291,
+          "word_errors": 4653,
+          "reference_words": 4738,
+          "macro_cer": 66.56270583466387,
+          "median_cer": 82.87007110536523,
+          "median_wer": 97.51908396946565,
+          "median_seconds": 2.283862299984321,
+          "repetition_flagged_cases": [
+            "ar-01",
+            "ar-02",
+            "ar-03",
+            "ar-04",
+            "ar-05",
+            "ar-11",
+            "ar-12",
+            "ar-13"
+          ],
+          "non_eos_cases": []
+        },
+        "unlimited": {
+          "expected": 15,
+          "scored": 15,
+          "cer": 336.7461199621259,
+          "wer": 428.9995778809624,
+          "character_errors": 81799,
+          "reference_characters": 24291,
+          "word_errors": 20326,
+          "reference_words": 4738,
+          "macro_cer": 267.60301310650806,
+          "median_cer": 245.59111691704769,
+          "median_wer": 258.2758620689655,
+          "median_seconds": 187.65101112611592,
+          "repetition_flagged_cases": [
+            "ar-01",
+            "ar-02",
+            "ar-03",
+            "ar-04",
+            "ar-05",
+            "ar-11",
+            "ar-12",
+            "ar-13",
+            "ar-14"
+          ],
+          "non_eos_cases": [
+            "ar-01",
+            "ar-02",
+            "ar-03",
+            "ar-04",
+            "ar-05",
+            "ar-11",
+            "ar-12",
+            "ar-13",
+            "ar-14"
+          ]
+        },
+        "paired_count": 15,
+        "wins": {
+          "cer": {
+            "mistral": 14,
+            "unlimited": 1
+          },
+          "wer": {
+            "mistral": 13,
+            "unlimited": 2
+          }
+        }
+      },
+      "fr": {
+        "mistral": {
+          "expected": 8,
+          "scored": 8,
+          "cer": 3.85697067095219,
+          "wer": 14.481897627965044,
+          "character_errors": 192,
+          "reference_characters": 4978,
+          "word_errors": 116,
+          "reference_words": 801,
+          "macro_cer": 3.4476106571571106,
+          "median_cer": 2.1694527989554917,
+          "median_wer": 12.330402691848477,
+          "median_seconds": 1.334908050019294,
+          "repetition_flagged_cases": [],
+          "non_eos_cases": []
+        },
+        "unlimited": {
+          "expected": 8,
+          "scored": 8,
+          "cer": 7.653676175170752,
+          "wer": 21.722846441947567,
+          "character_errors": 381,
+          "reference_characters": 4978,
+          "word_errors": 174,
+          "reference_words": 801,
+          "macro_cer": 6.984048217922569,
+          "median_cer": 6.566137838673122,
+          "median_wer": 20.868205647015543,
+          "median_seconds": 10.603710057213902,
+          "repetition_flagged_cases": [],
+          "non_eos_cases": []
+        },
+        "paired_count": 8,
+        "wins": {
+          "cer": {
+            "mistral": 8,
+            "unlimited": 0
+          },
+          "wer": {
+            "mistral": 7,
+            "unlimited": 1
+          }
+        }
+      },
+      "en": {
+        "mistral": {
+          "expected": 8,
+          "scored": 8,
+          "cer": 10.164583968302347,
+          "wer": 26.27324171382377,
+          "character_errors": 667,
+          "reference_characters": 6562,
+          "word_errors": 325,
+          "reference_words": 1237,
+          "macro_cer": 26.508019159121137,
+          "median_cer": 9.091794281667699,
+          "median_wer": 29.885496183206108,
+          "median_seconds": 1.8839024000335485,
+          "repetition_flagged_cases": [
+            "en-06"
+          ],
+          "non_eos_cases": []
+        },
+        "unlimited": {
+          "expected": 8,
+          "scored": 8,
+          "cer": 114.8430356598598,
+          "wer": 207.92239288601456,
+          "character_errors": 7536,
+          "reference_characters": 6562,
+          "word_errors": 2572,
+          "reference_words": 1237,
+          "macro_cer": 888.3312009772825,
+          "median_cer": 24.694624450189707,
+          "median_wer": 45.87762237762237,
+          "median_seconds": 11.325578374788165,
+          "repetition_flagged_cases": [
+            "en-08"
+          ],
+          "non_eos_cases": [
+            "en-08"
+          ]
+        },
+        "paired_count": 8,
+        "wins": {
+          "cer": {
+            "mistral": 7,
+            "unlimited": 1
+          },
+          "wer": {
+            "mistral": 7,
+            "unlimited": 1
+          }
+        }
+      }
+    },
+    "images": 31
+  }
+}

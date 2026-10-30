@@ -1,0 +1,53 @@
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+
+# Model and training artifacts
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+checkpoints/
+model/
+data/
+data_aug/
+cache/
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+tests/.tmp/
+.venv/
+venv/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+
+# Local data, cluster logs and credentials
+.aws/
+.kube/
+kubeconfig*
+*.log
+*.jsonl
+*.tar
+*.tar.gz
+*.tgz
+*.pdf
+
+# Explicit, reviewed scientific evidence (never blanket-add runtime files).
+!results/**/*.jsonl
+!results/logs/
+!results/logs/*.txt
+!reports/**/*.pdf
+!results/training/corrective-v1/checkpoints/
+!results/training/corrective-v1/checkpoints/*.json

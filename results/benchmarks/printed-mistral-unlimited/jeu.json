@@ -1,0 +1,837 @@
+{
+  "schema": 2,
+  "counts": {
+    "ar": 15,
+    "fr": 8,
+    "en": 8
+  },
+  "dataset": "Cognitive-Lab/NayanaOCRBench_Natural",
+  "dataset_revision": "2684870ad1a0ba271ed56c31e19cb05a6b78c291",
+  "dataset_url": "https://huggingface.co/datasets/Cognitive-Lab/NayanaOCRBench_Natural",
+  "license": "CC-BY-NC-4.0",
+  "selection_independent_of_outputs": true,
+  "references_not_in_model_inputs": true,
+  "training_overlap": "not established; illustrative sample, not proof of contamination-free generalization",
+  "reference_transformation": "remove nonprinted HTML coordinate comments only; original references retained",
+  "inference_preprocessing": "RGB; PIL thumbnail((1024,1024)), default BICUBIC, aspect preserved; exact training preprocessing; same resulting PNG bytes for all three systems",
+  "excluded": [
+    {
+      "dataset_id": "ar_pdf_0000_page_00001",
+      "reason": "image and reference mismatch, excluded before inference"
+    },
+    {
+      "dataset_id": "en_pdf_0009_page_00001",
+      "reason": "reference omits the text-bearing receipt figure, excluded before inference"
+    }
+  ],
+  "cases": [
+    {
+      "id": "ar-01",
+      "language": "ar",
+      "layout": "Page de titre centrée",
+      "candidate": 1,
+      "dataset_id": "ar_pdf_0001_page_00001",
+      "dataset_row": 1,
+      "dataset_config": "ar",
+      "dataset_split": "train",
+      "image": "images/ar-01.png",
+      "image_sha256": "15ffdd990573ca8bc38a37649747dc88c0dc5b5519d3a2d23490aebfb9d781fb",
+      "image_size": [
+        1654,
+        2339
+      ],
+      "inference_image": "images-modele/ar-01.png",
+      "inference_image_sha256": "93b3914651ff82306ba1c1941463aca36246b0bce56497cb7eee1766d3fefae7",
+      "inference_size": [
+        724,
+        1024
+      ],
+      "ground_truth": "ground-truth/ar-01.md",
+      "ground_truth_sha256": "1e8068ca06e6d2ef196faa8ee8817c157ce7df13dad4794081913b0221ccdea4",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "ar-02",
+      "language": "ar",
+      "layout": "Formulaire scanné avec signatures",
+      "candidate": 2,
+      "dataset_id": "ar_pdf_0001_page_00002",
+      "dataset_row": 2,
+      "dataset_config": "ar",
+      "dataset_split": "train",
+      "image": "images/ar-02.png",
+      "image_sha256": "acddb991430c6e45f5947f04d6bb288fbb06f6524f780cd8559771ee3b787555",
+      "image_size": [
+        1654,
+        2339
+      ],
+      "inference_image": "images-modele/ar-02.png",
+      "inference_image_sha256": "cec0ee5d226790168f2d96fce0cbe31300cba6327d8e5b6afceecf5482a792f0",
+      "inference_size": [
+        724,
+        1024
+      ],
+      "ground_truth": "ground-truth/ar-02.md",
+      "ground_truth_sha256": "3b815a5eeceaadd52ac1943b7436f6eb5a53c4a5c7d6bb226f071eec33ee2786",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "ar-03",
+      "language": "ar",
+      "layout": "Dédicace centrée",
+      "candidate": 3,
+      "dataset_id": "ar_pdf_0001_page_00003",
+      "dataset_row": 3,
+      "dataset_config": "ar",
+      "dataset_split": "train",
+      "image": "images/ar-03.png",
+      "image_sha256": "972443449f69946b732de2227a81243ae8ed9a11a00bb088ce92279dc2556329",
+      "image_size": [
+        1654,
+        2339
+      ],
+      "inference_image": "images-modele/ar-03.png",
+      "inference_image_sha256": "e5b9c25f7a726199f56da2290e5a0a3846aab2b289eb0384f1ddb16ad4b24950",
+      "inference_size": [
+        724,
+        1024
+      ],
+      "ground_truth": "ground-truth/ar-03.md",
+      "ground_truth_sha256": "e9db8547355e1a12278461e9515f3726ee103d2c5d0b7bebc8fbcbf1334a06e7",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "ar-04",
+      "language": "ar",
+      "layout": "Livre avec titre et texte continu",
+      "candidate": 4,
+      "dataset_id": "ar_pdf_0001_page_00005",
+      "dataset_row": 4,
+      "dataset_config": "ar",
+      "dataset_split": "train",
+      "image": "images/ar-04.png",
+      "image_sha256": "34e7660143d3385035707dce95824c481230af7c5ff1798ef8067302b123f839",
+      "image_size": [
+        1654,
+        2339
+      ],
+      "inference_image": "images-modele/ar-04.png",
+      "inference_image_sha256": "3e594488c5c4133c80581000b22aa8d5565d629cc63d426ee2eec89ddbc83228",
+      "inference_size": [
+        724,
+        1024
+      ],
+      "ground_truth": "ground-truth/ar-04.md",
+      "ground_truth_sha256": "8baf549550e641d93a088999e37e13f5326f8df0ec991ffd8fa43c83f108038c",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "ar-05",
+      "language": "ar",
+      "layout": "Bulletin officiel à deux colonnes",
+      "candidate": 5,
+      "dataset_id": "ar_pdf_0002_page_00001",
+      "dataset_row": 71,
+      "dataset_config": "ar",
+      "dataset_split": "train",
+      "image": "images/ar-05.png",
+      "image_sha256": "928d8882f05cc9338b3d75ec365f91326b7be1e8cd1623703581c94b48b834de",
+      "image_size": [
+        1654,
+        2339
+      ],
+      "inference_image": "images-modele/ar-05.png",
+      "inference_image_sha256": "8f76e2ca999184366eaae939786b5d56ea02e005610a91b1ca0c30666664542c",
+      "inference_size": [
+        724,
+        1024
+      ],
+      "ground_truth": "ground-truth/ar-05.md",
+      "ground_truth_sha256": "64280fc8dbb2e16cfcea59618e98fbfec99b82f076ee0ec46b3c60d4a50f0aef",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "ar-06",
+      "language": "ar",
+      "layout": "Articles numérotés sur deux colonnes",
+      "candidate": 7,
+      "dataset_id": "ar_pdf_0002_page_00003",
+      "dataset_row": 73,
+      "dataset_config": "ar",
+      "dataset_split": "train",
+      "image": "images/ar-06.png",
+      "image_sha256": "eadf8d26d5c3669632d51d87dac3dc006047af3f5d91f06f6df176c717030550",
+      "image_size": [
+        1654,
+        2339
+      ],
+      "inference_image": "images-modele/ar-06.png",
+      "inference_image_sha256": "0fe42dee645e1a0c4243171dc02df33231c684140142b3f5841c20346756ddb3",
+      "inference_size": [
+        724,
+        1024
+      ],
+      "ground_truth": "ground-truth/ar-06.md",
+      "ground_truth_sha256": "ca33555f9fc928e5e2ded84c8cca111fc85e4dd6e44d6d984acb62ee5aa1586c",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "ar-07",
+      "language": "ar",
+      "layout": "Livre avec notes de bas de page",
+      "candidate": 9,
+      "dataset_id": "ar_pdf_0003_page_00007",
+      "dataset_row": 79,
+      "dataset_config": "ar",
+      "dataset_split": "train",
+      "image": "images/ar-07.png",
+      "image_sha256": "34042a1385d36638d5162738f19d0e54e5f55b8051e3e1d496d66034cc2dd213",
+      "image_size": [
+        1303,
+        1894
+      ],
+      "inference_image": "images-modele/ar-07.png",
+      "inference_image_sha256": "78b37a56c6a7e5d5993ac510adf6beb74cafb1439113d2031cafdfad840e6dd7",
+      "inference_size": [
+        704,
+        1024
+      ],
+      "ground_truth": "ground-truth/ar-07.md",
+      "ground_truth_sha256": "e42de7d5dd7f31c3703a627202bb8dbd5bf3d50c42ae818144c766d213fe0b0c",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "ar-08",
+      "language": "ar",
+      "layout": "Texte avec notes denses",
+      "candidate": 11,
+      "dataset_id": "ar_pdf_0003_page_00011",
+      "dataset_row": 81,
+      "dataset_config": "ar",
+      "dataset_split": "train",
+      "image": "images/ar-08.png",
+      "image_sha256": "86dba495092538bee09605c02d883d17ced02a110ad6a031da762bed98c24139",
+      "image_size": [
+        1305,
+        1895
+      ],
+      "inference_image": "images-modele/ar-08.png",
+      "inference_image_sha256": "5772a5dd394594b64805a1e8ac57396a3e37eae2bf733f673df5d2eafa1a32fa",
+      "inference_size": [
+        705,
+        1024
+      ],
+      "ground_truth": "ground-truth/ar-08.md",
+      "ground_truth_sha256": "3607583e593b184f4079d24e9f45455716953d9a2404b2fed1a899df0bcea48e",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "ar-09",
+      "language": "ar",
+      "layout": "Mentions éditoriales bilingues",
+      "candidate": 13,
+      "dataset_id": "ar_pdf_0004_page_00004",
+      "dataset_row": 331,
+      "dataset_config": "ar",
+      "dataset_split": "train",
+      "image": "images/ar-09.png",
+      "image_sha256": "d34da2f28f16831e67700f592000c61ec787d2216693ae582b605628a6ca868e",
+      "image_size": [
+        1250,
+        1667
+      ],
+      "inference_image": "images-modele/ar-09.png",
+      "inference_image_sha256": "29790e7ab183919069e3a094cfe9b991dbfa90f388cd2f1fbb481e8d97c1e194",
+      "inference_size": [
+        768,
+        1024
+      ],
+      "ground_truth": "ground-truth/ar-09.md",
+      "ground_truth_sha256": "bf7819594771ec3f9087ce09720e3e8f1bb9a6f9c317fef1f6195c9271d73e28",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "ar-10",
+      "language": "ar",
+      "layout": "Texte continu dense",
+      "candidate": 14,
+      "dataset_id": "ar_pdf_0004_page_00012",
+      "dataset_row": 332,
+      "dataset_config": "ar",
+      "dataset_split": "train",
+      "image": "images/ar-10.png",
+      "image_sha256": "a6264c0d562d0b99a4488b6a671e3d7717cac112dec497bd5a86d904ba96e47b",
+      "image_size": [
+        1250,
+        1667
+      ],
+      "inference_image": "images-modele/ar-10.png",
+      "inference_image_sha256": "b90ba673f5e301769186eb88a9a9f6c0ce362d0f04636178e48a6244f65b15cb",
+      "inference_size": [
+        768,
+        1024
+      ],
+      "ground_truth": "ground-truth/ar-10.md",
+      "ground_truth_sha256": "f0b43a76330a72126fe93b2a19b4853ba30372f99cdbba3d09d8493f515f03bc",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "ar-11",
+      "language": "ar",
+      "layout": "Texte arabe avec citation latine",
+      "candidate": 18,
+      "dataset_id": "ar_pdf_0006_page_00002",
+      "dataset_row": 364,
+      "dataset_config": "ar",
+      "dataset_split": "train",
+      "image": "images/ar-11.png",
+      "image_sha256": "2316aa4ede663926e8cd2aa993fcde817fece59ca885b720da138c4a6905890b",
+      "image_size": [
+        1290,
+        1928
+      ],
+      "inference_image": "images-modele/ar-11.png",
+      "inference_image_sha256": "f059b93e697e1cdec31a3f81614dc0433e0f820589ac274f56cf6edf5dffe406",
+      "inference_size": [
+        685,
+        1024
+      ],
+      "ground_truth": "ground-truth/ar-11.md",
+      "ground_truth_sha256": "8ac309754685806d70871aa950b6040d7fc675f8541a96ec5c29327e46ccb594",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "ar-12",
+      "language": "ar",
+      "layout": "Texte et deux tableaux",
+      "candidate": 20,
+      "dataset_id": "ar_pdf_0006_page_00010",
+      "dataset_row": 366,
+      "dataset_config": "ar",
+      "dataset_split": "train",
+      "image": "images/ar-12.png",
+      "image_sha256": "c365a7bee086129476d66d8630cbfed7bd5262d0b2b3f6b2b50fd4130b3708da",
+      "image_size": [
+        1290,
+        1928
+      ],
+      "inference_image": "images-modele/ar-12.png",
+      "inference_image_sha256": "56814ecceed8e8d9a35485226ea7e9c7b3eb10e72e8499574a02417f3844e751",
+      "inference_size": [
+        685,
+        1024
+      ],
+      "ground_truth": "ground-truth/ar-12.md",
+      "ground_truth_sha256": "6be189c1caa3b49e9a8a1815176d2b4d1ad64ee9bbc79d4dfa713fc8abdded50",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "ar-13",
+      "language": "ar",
+      "layout": "Tableau et paragraphes",
+      "candidate": 21,
+      "dataset_id": "ar_pdf_0006_page_00011",
+      "dataset_row": 367,
+      "dataset_config": "ar",
+      "dataset_split": "train",
+      "image": "images/ar-13.png",
+      "image_sha256": "130875786bd76b285d5c35f8004a75ef19d1ff2a5b159ddae6b20e56c2970ead",
+      "image_size": [
+        1298,
+        1925
+      ],
+      "inference_image": "images-modele/ar-13.png",
+      "inference_image_sha256": "824be56a6d028bc6a8e7ea252afa0790057790783cab68b7b60768f80ef81e0f",
+      "inference_size": [
+        690,
+        1024
+      ],
+      "ground_truth": "ground-truth/ar-13.md",
+      "ground_truth_sha256": "dea01dacd0fc6d893699fd11476bd9c88e488d577b20ed64276e6de3e867edce",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "ar-14",
+      "language": "ar",
+      "layout": "Texte vocalisé en couleurs",
+      "candidate": 25,
+      "dataset_id": "ar_pdf_0008_page_00001",
+      "dataset_row": 381,
+      "dataset_config": "ar",
+      "dataset_split": "train",
+      "image": "images/ar-14.png",
+      "image_sha256": "56188e4dbd6109d5c441d2fac3860d65fac2ad7b4d4acc7d9282f54d38ebbeb2",
+      "image_size": [
+        1700,
+        2200
+      ],
+      "inference_image": "images-modele/ar-14.png",
+      "inference_image_sha256": "65bbce513a5ebf0005567ad497a42f36d18a44c8aa7b20126ed6d5b721a57344",
+      "inference_size": [
+        791,
+        1024
+      ],
+      "ground_truth": "ground-truth/ar-14.md",
+      "ground_truth_sha256": "798746714938188110c388e449fb582f9b3f410919d692495f9a2cad99a427b6",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "ar-15",
+      "language": "ar",
+      "layout": "Commentaire avec listes et citations",
+      "candidate": 27,
+      "dataset_id": "ar_pdf_0009_page_00011",
+      "dataset_row": 388,
+      "dataset_config": "ar",
+      "dataset_split": "train",
+      "image": "images/ar-15.png",
+      "image_sha256": "66dd01806542d5b199494298b641dc020a45d6731122b20f7c7e54a19e2b5926",
+      "image_size": [
+        1290,
+        1869
+      ],
+      "inference_image": "images-modele/ar-15.png",
+      "inference_image_sha256": "428d5c7453dd2d3b2dd6e86798f749ec1f9a20393a10d973b1fd844bcb931da2",
+      "inference_size": [
+        707,
+        1024
+      ],
+      "ground_truth": "ground-truth/ar-15.md",
+      "ground_truth_sha256": "7981e0f66adc8ca2ffd7c6bf47a48437ca3c8330b439f05d659274124627b849",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "fr-01",
+      "language": "fr",
+      "layout": "Livre à une colonne",
+      "candidate": 1,
+      "dataset_id": "fr_pdf_0000_page_00009",
+      "dataset_row": 4,
+      "dataset_config": "fr",
+      "dataset_split": "train",
+      "image": "images/fr-01.png",
+      "image_sha256": "250cb54424146da65106375f970870e0b7bb67cd7bf14d1ca800a15c856dbfb4",
+      "image_size": [
+        850,
+        1403
+      ],
+      "inference_image": "images-modele/fr-01.png",
+      "inference_image_sha256": "5c15aa9c5a730a3294dcb2c736e9871638cf8b323f6c68eb905931ccf9c374a9",
+      "inference_size": [
+        620,
+        1024
+      ],
+      "ground_truth": "ground-truth/fr-01.md",
+      "ground_truth_sha256": "8be6b966b298fd4e7a3468656ea58d1a4652490ac47de8c59238258f4a08c220",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "fr-02",
+      "language": "fr",
+      "layout": "Table des matières avec photographie",
+      "candidate": 6,
+      "dataset_id": "fr_pdf_0004_page_00001",
+      "dataset_row": 29,
+      "dataset_config": "fr",
+      "dataset_split": "train",
+      "image": "images/fr-02.png",
+      "image_sha256": "a8ce660be76e6df561982162f4996d84eaed806b28c7517ea2bcc112c929fb22",
+      "image_size": [
+        1653,
+        2339
+      ],
+      "inference_image": "images-modele/fr-02.png",
+      "inference_image_sha256": "95b51afdd09f325c5cdaf64f1c775836e8a0dd80253cac611192b6b11ed3cc31",
+      "inference_size": [
+        724,
+        1024
+      ],
+      "ground_truth": "ground-truth/fr-02.md",
+      "ground_truth_sha256": "fd616125fbd1239e44b40a857ee7607a834b3b043bcf9ad11e9ba9df8fff7326",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "fr-03",
+      "language": "fr",
+      "layout": "Journal à colonnes avec photographie",
+      "candidate": 8,
+      "dataset_id": "fr_pdf_0005_page_00001",
+      "dataset_row": 34,
+      "dataset_config": "fr",
+      "dataset_split": "train",
+      "image": "images/fr-03.png",
+      "image_sha256": "e04c6f3c7f9b33df69a9749cb090859b814eaab71f52dd39369e5aec03f2459e",
+      "image_size": [
+        1653,
+        2339
+      ],
+      "inference_image": "images-modele/fr-03.png",
+      "inference_image_sha256": "7a03b827ea2d49eb6644ad15bb2795638d3fcd18279b4f843f9d3bbf4328922a",
+      "inference_size": [
+        724,
+        1024
+      ],
+      "ground_truth": "ground-truth/fr-03.md",
+      "ground_truth_sha256": "eee3a627f9f6700c9fe00403d953c0a9c4bb6d88909067b6f6bb1179af985342",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "fr-04",
+      "language": "fr",
+      "layout": "Formulaire à cases et tableaux",
+      "candidate": 10,
+      "dataset_id": "fr_pdf_0008_page_00001",
+      "dataset_row": 41,
+      "dataset_config": "fr",
+      "dataset_split": "train",
+      "image": "images/fr-04.png",
+      "image_sha256": "1ccb54727ca553518a7c12f8b256ed9ec4bbbca76e283f679069b490fbd203a5",
+      "image_size": [
+        1653,
+        2339
+      ],
+      "inference_image": "images-modele/fr-04.png",
+      "inference_image_sha256": "e8b1aa76acdeac26e0d9c04c97a2a62a6b9be3994c9ca8b65c0cd9fe340295b8",
+      "inference_size": [
+        724,
+        1024
+      ],
+      "ground_truth": "ground-truth/fr-04.md",
+      "ground_truth_sha256": "d63e2c7aa9df94ed8d5a7b1c57812ae0fd3867f2cf82d4bb710ea0fb1dcf1a67",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "fr-05",
+      "language": "fr",
+      "layout": "Bilan financier en tableau",
+      "candidate": 12,
+      "dataset_id": "fr_pdf_0010_page_00005",
+      "dataset_row": 43,
+      "dataset_config": "fr",
+      "dataset_split": "train",
+      "image": "images/fr-05.png",
+      "image_sha256": "c50cb98574a4d24399ef447aee05cc430e63a274f3021a2011d9aa9a50f010bd",
+      "image_size": [
+        1654,
+        2339
+      ],
+      "inference_image": "images-modele/fr-05.png",
+      "inference_image_sha256": "d74a05486b2052766213e446db06fe11ef5053d14cec038e9329df3c304f9e53",
+      "inference_size": [
+        724,
+        1024
+      ],
+      "ground_truth": "ground-truth/fr-05.md",
+      "ground_truth_sha256": "a8b5c4289989fd34d91a64a5ba6515cecdb88c14fe0d22a8ccc906d3bee0b718",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "fr-06",
+      "language": "fr",
+      "layout": "Document juridique avec en-tête",
+      "candidate": 14,
+      "dataset_id": "fr_pdf_0011_page_00001",
+      "dataset_row": 46,
+      "dataset_config": "fr",
+      "dataset_split": "train",
+      "image": "images/fr-06.png",
+      "image_sha256": "c379769a0d4e456523c9e175fea5922597417715d539debfd51c795346d159f9",
+      "image_size": [
+        1654,
+        2339
+      ],
+      "inference_image": "images-modele/fr-06.png",
+      "inference_image_sha256": "60b851024469c159d186e4e8a13ab443ec78dd8e7c81a0563be3e417a17121c3",
+      "inference_size": [
+        724,
+        1024
+      ],
+      "ground_truth": "ground-truth/fr-06.md",
+      "ground_truth_sha256": "e79e597b2735d43fc75229936e17be10b4f7abcbb3f26382d291ab93a5751dc6",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "fr-07",
+      "language": "fr",
+      "layout": "Bulletin avec formulaire détachable",
+      "candidate": 20,
+      "dataset_id": "fr_pdf_0016_page_00002",
+      "dataset_row": 91,
+      "dataset_config": "fr",
+      "dataset_split": "train",
+      "image": "images/fr-07.png",
+      "image_sha256": "bce17c34d6d56a470814360570d36dc95b62483a974a4f232cfdbea7df172598",
+      "image_size": [
+        1653,
+        2339
+      ],
+      "inference_image": "images-modele/fr-07.png",
+      "inference_image_sha256": "31d3d45c2dffc4e898cd5d23829ea35bdef77180331c31b34be19e2ddbd46d08",
+      "inference_size": [
+        724,
+        1024
+      ],
+      "ground_truth": "ground-truth/fr-07.md",
+      "ground_truth_sha256": "5f21866219727e1fa5debb8169950cf209c2b9db2978a5de52db6f3114a64e89",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "fr-08",
+      "language": "fr",
+      "layout": "Compte rendu avec tableau",
+      "candidate": 26,
+      "dataset_id": "fr_pdf_0022_page_00001",
+      "dataset_row": 114,
+      "dataset_config": "fr",
+      "dataset_split": "train",
+      "image": "images/fr-08.png",
+      "image_sha256": "14d53e9db07b80b6dd6c0f03827b1ceb149b4c478fee66ac3e135e05a120b4e2",
+      "image_size": [
+        1654,
+        2339
+      ],
+      "inference_image": "images-modele/fr-08.png",
+      "inference_image_sha256": "edd893498b65715ad28033136b535968659bbf7b3cdb1bc85fd7e3d32075446c",
+      "inference_size": [
+        724,
+        1024
+      ],
+      "ground_truth": "ground-truth/fr-08.md",
+      "ground_truth_sha256": "4ff876cafc220f42aa8f0fd49978babda7d7895ef549cc98eefdd2421a95a890",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "en-01",
+      "language": "en",
+      "layout": "Article scientifique à deux colonnes",
+      "candidate": 0,
+      "dataset_id": "en_pdf_0000_page_00003",
+      "dataset_row": 0,
+      "dataset_config": "en",
+      "dataset_split": "train",
+      "image": "images/en-01.png",
+      "image_sha256": "90169a5eda43918565cd8f637e619551f48e0bf471b0fafe8b897f45df4f768a",
+      "image_size": [
+        1700,
+        2200
+      ],
+      "inference_image": "images-modele/en-01.png",
+      "inference_image_sha256": "016316a2dad6a5f181bc14c803cd3e478eaac3630f7f51cb7142deae59ac1ca9",
+      "inference_size": [
+        791,
+        1024
+      ],
+      "ground_truth": "ground-truth/en-01.md",
+      "ground_truth_sha256": "4c4cf4414f01d78b407c601413aefcdecdf60e2b4fa622ee6af4bdd684892984",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "en-02",
+      "language": "en",
+      "layout": "Catalogue avec tableaux numériques",
+      "candidate": 3,
+      "dataset_id": "en_pdf_0002_page_00001",
+      "dataset_row": 20,
+      "dataset_config": "en",
+      "dataset_split": "train",
+      "image": "images/en-02.png",
+      "image_sha256": "8b481f66871d6a10942182bc5bda87b3f9197dafffebef61726fbefd395f8986",
+      "image_size": [
+        1654,
+        2339
+      ],
+      "inference_image": "images-modele/en-02.png",
+      "inference_image_sha256": "e86b76876b143b5ee523fd9dbc8dd8fe10f605d4e988190f629a1a4c98a070cf",
+      "inference_size": [
+        724,
+        1024
+      ],
+      "ground_truth": "ground-truth/en-02.md",
+      "ground_truth_sha256": "9ad083e52ec794279cf2fa6ef1c2e3bcbafa68f95b7f09910f53506fd1e56ce6",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "en-03",
+      "language": "en",
+      "layout": "Bulletin avec listes sur deux colonnes",
+      "candidate": 7,
+      "dataset_id": "en_pdf_0004_page_00001",
+      "dataset_row": 27,
+      "dataset_config": "en",
+      "dataset_split": "train",
+      "image": "images/en-03.png",
+      "image_sha256": "9b9b0e5fac6b7b2f4cc0aec0e75fe683928f1592efac435710646d507e224189",
+      "image_size": [
+        1700,
+        2200
+      ],
+      "inference_image": "images-modele/en-03.png",
+      "inference_image_sha256": "813bcc78ee92d30adefac6942d5d67b4bc59642462b593b1ad914fd46f5bde6f",
+      "inference_size": [
+        791,
+        1024
+      ],
+      "ground_truth": "ground-truth/en-03.md",
+      "ground_truth_sha256": "abbaee87b2368988974da8884f979f7d79321b59fb7905d7ff01f8d674b67f42",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "en-04",
+      "language": "en",
+      "layout": "Ordre du jour avec rubriques hiérarchisées",
+      "candidate": 9,
+      "dataset_id": "en_pdf_0005_page_00001",
+      "dataset_row": 29,
+      "dataset_config": "en",
+      "dataset_split": "train",
+      "image": "images/en-04.png",
+      "image_sha256": "a2080796d1ddb7f334df8d62ab4b6dfa864230147b809b9551f738e4bea7c1d5",
+      "image_size": [
+        1700,
+        2800
+      ],
+      "inference_image": "images-modele/en-04.png",
+      "inference_image_sha256": "67b0fe33c701815e8222d5156f8564bc65b051e838ece13feeb77ba558dce35d",
+      "inference_size": [
+        622,
+        1024
+      ],
+      "ground_truth": "ground-truth/en-04.md",
+      "ground_truth_sha256": "a3eba95bf773b3ded91915ca1f4b24583751990b529f979f7ae7c6fd4e69be52",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "en-05",
+      "language": "en",
+      "layout": "Avis avec encadré",
+      "candidate": 20,
+      "dataset_id": "en_pdf_0012_page_00002",
+      "dataset_row": 46,
+      "dataset_config": "en",
+      "dataset_split": "train",
+      "image": "images/en-05.png",
+      "image_sha256": "4fd4dadd0e27334c5475d3b118d8c2430430fcc233dd6e2d5c22dfc3d391298f",
+      "image_size": [
+        1700,
+        2200
+      ],
+      "inference_image": "images-modele/en-05.png",
+      "inference_image_sha256": "7199f481fbde6aba876de805a7980238a9ba838e205f29d5b36d59fa4919beca",
+      "inference_size": [
+        791,
+        1024
+      ],
+      "ground_truth": "ground-truth/en-05.md",
+      "ground_truth_sha256": "ac1f8f3ffd190af3bd08d381c3469b14a25153282b3a1ac0fd8ab442569262c0",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "en-06",
+      "language": "en",
+      "layout": "Calendrier de réunions",
+      "candidate": 24,
+      "dataset_id": "en_pdf_0021_page_00001",
+      "dataset_row": 63,
+      "dataset_config": "en",
+      "dataset_split": "train",
+      "image": "images/en-06.png",
+      "image_sha256": "865d6c96b42db3b9a8d6f3a06dd735e3d5b2015f2ed487bd05433cbac45ebae9",
+      "image_size": [
+        1700,
+        2200
+      ],
+      "inference_image": "images-modele/en-06.png",
+      "inference_image_sha256": "346c228b5b325836b4e08b3e6c2f7c4eaa6d3a126462ad0f4a7806a487c49ed3",
+      "inference_size": [
+        791,
+        1024
+      ],
+      "ground_truth": "ground-truth/en-06.md",
+      "ground_truth_sha256": "cc9b198a64469e7acf25ccd57e235a9bed8d72593651df90692d5167552c8ee5",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "en-07",
+      "language": "en",
+      "layout": "Ordre du jour avec tableau de présence",
+      "candidate": 19,
+      "dataset_id": "en_pdf_0011_page_00001",
+      "dataset_row": 43,
+      "dataset_config": "en",
+      "dataset_split": "train",
+      "image": "images/en-07.png",
+      "image_sha256": "171b40d72dffca2390408615edaab61282e7f9e8b79104ae76358217bd626668",
+      "image_size": [
+        1700,
+        2200
+      ],
+      "inference_image": "images-modele/en-07.png",
+      "inference_image_sha256": "6a65a4df90ceeff81d955205a0e74348e82e6afc7d3d1aea6113218717b80b94",
+      "inference_size": [
+        791,
+        1024
+      ],
+      "ground_truth": "ground-truth/en-07.md",
+      "ground_truth_sha256": "9739da974b9d58df1a2f0fcd54bb88b7a627d01f78cd37954348269ae5ea119e",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    },
+    {
+      "id": "en-08",
+      "language": "en",
+      "layout": "Bulletin à colonnes avec photographie",
+      "candidate": 27,
+      "dataset_id": "en_pdf_0026_page_00002",
+      "dataset_row": 69,
+      "dataset_config": "en",
+      "dataset_split": "train",
+      "image": "images/en-08.png",
+      "image_sha256": "e42ed59b276120261e212d0199bed23ef2cb3f83272553250a1f851a723d94de",
+      "image_size": [
+        1654,
+        2339
+      ],
+      "inference_image": "images-modele/en-08.png",
+      "inference_image_sha256": "9d99ebd93407010a443b726373e81908f000ef1c8fa4faa5b0cf0952d0c33417",
+      "inference_size": [
+        724,
+        1024
+      ],
+      "ground_truth": "ground-truth/en-08.md",
+      "ground_truth_sha256": "17cb126e03a6dd494b7745d625a7913af10013fc7882d6303e0bf60fd7f2ae93",
+      "reference_status": "publisher annotation; image/reference correspondence inspected; not independently re-transcribed in full",
+      "acquisition": "real document image; individual physical scanner provenance not certified"
+    }
+  ],
+  "protocol_revision": "native1024-v2",
+  "protocol_correction": "First 1120px protocol superseded after independent fresh inference showed severe resolution sensitivity. Same 31 original images, references and checkpoint; all three systems rerun, no selection changes."
+}

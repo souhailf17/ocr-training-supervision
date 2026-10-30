@@ -1,0 +1,114 @@
+{
+  "state": "bounded_training_complete_pending_generation_review",
+  "updates": 38,
+  "examples_consumed": 600,
+  "unique_training_pages": 300,
+  "epochs": 2,
+  "validation_pages": 75,
+  "best_by_loss": {
+    "checkpoint": {
+      "label": "epoch-2",
+      "checkpoint": "corrective-public-v1/epoch-2",
+      "phase_step": 38,
+      "phase_config": {
+        "phase": "bounded-public-literal-correction",
+        "initialization": "verified original Qwen3.5-9B + fresh zero-B LoRA; regressed adapter NOT inherited",
+        "historical_checkpoint_preserved": 4796,
+        "epochs": 2,
+        "train_examples_per_epoch": 300,
+        "validation_examples": 75,
+        "global_batch": 16,
+        "accumulation": 16,
+        "microbatch": 1,
+        "world_size": 1,
+        "maximum_sequence_tokens": 8192,
+        "base_dtype": "bf16",
+        "lora_compute_dtype": "fp32",
+        "lora_rank": 16,
+        "lora_alpha": 32,
+        "max_lr": 1e-05,
+        "min_lr": 2e-06,
+        "warmup_updates": 4,
+        "clip": 1.0,
+        "seed": 20261027,
+        "corpus_manifest_sha256": "0aaf6b139609cfb781bce9d295be3286e3f06e3d7c743dfe1e9dcaf182e5203d",
+        "code_sha256": {
+          "train_corrective.py": "d06bd906b30c5d020656742878d1ecee3ea2d523d16a2af679ab734ea446874e",
+          "ocr_fidelity.py": "a801fa1cede45422901023aa46cad0c12614600f334ab9ea908c0f3fe5452f5a",
+          "lora.py": "3901369100bbf8d61484ca9afea116f82551e1710c1ea7649a4d33cbc80c8e12"
+        },
+        "gpu": "GPU-0afd259b-5e7a-b973-86eb-d71bc54bbdd2, NVIDIA H200, 0",
+        "torch": "2.11.0+cu130",
+        "transformers": "5.8.0",
+        "deployment": "candidate only; no automatic promotion",
+        "licenses": {
+          "NOD": "CC-BY-4.0; Thomas Hegghammer (2021), doi:10.5281/zenodo.5068735",
+          "Nayana": "CC-BY-NC-4.0; Cognitive-Lab/NayanaOCRBench_Natural @2684870ad1a0ba271ed56c31e19cb05a6b78c291"
+        },
+        "publisher_annotations_not_all_independently_retranscribed": true
+      },
+      "step": 38,
+      "examples_consumed": 600,
+      "adapter_path": "/export/ocr-fidelity-corrective-run-v1/checkpoints/adapter-epoch-2.safetensors",
+      "adapter_sha256": "f6f4c76626a747d0bcd1cd047f2c8d43bb6b3091904f9377c85bb235754307e0",
+      "config_sha256": "736eb913f05465b3574db15c310eac817697e6cb72e0bc7c94671293a301177a",
+      "base_manifest_sha256": "3c000e84715599eff31f5e67ab69be106a9f7c22ccd6d3e762659673afbe4c79"
+    },
+    "evaluation": {
+      "label": "epoch-2",
+      "step": 38,
+      "examples_consumed": 600,
+      "values": {
+        "ar": {
+          "loss": 1.209046176606804,
+          "supervised_tokens": 20961,
+          "examples": 25
+        },
+        "all": {
+          "loss": 0.5635696377382902,
+          "supervised_tokens": 51175,
+          "examples": 75
+        },
+        "fr": {
+          "loss": 0.1191047193789556,
+          "supervised_tokens": 15782,
+          "examples": 25
+        },
+        "en": {
+          "loss": 0.11212227149134602,
+          "supervised_tokens": 14432,
+          "examples": 25
+        }
+      }
+    }
+  },
+  "baseline": {
+    "label": "base-initial",
+    "step": 0,
+    "examples_consumed": 0,
+    "values": {
+      "ar": {
+        "loss": 1.3868891624718254,
+        "supervised_tokens": 20961,
+        "examples": 25
+      },
+      "all": {
+        "loss": 0.6415951587687441,
+        "supervised_tokens": 51175,
+        "examples": 75
+      },
+      "fr": {
+        "loss": 0.12928539146804346,
+        "supervised_tokens": 15782,
+        "examples": 25
+      },
+      "en": {
+        "loss": 0.11936436164564042,
+        "supervised_tokens": 14432,
+        "examples": 25
+      }
+    }
+  },
+  "historical_checkpoint_unchanged": true,
+  "automatically_promoted": false
+}

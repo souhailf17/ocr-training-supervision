@@ -1,0 +1,21 @@
+{
+  "id": "fr-06",
+  "text": "ORGANISATION POUR L'HARMONISATION\nEN AFRIQUE DU DROIT DES AFFAIRES\n(OHADA)\n-------\nCOUR COMMUNE DE JUSTICE\nET D'ARBITRAGE\n(CCJA)\n-------\nTroisième chambre\n-------\n**Audience publique du 27 février 2020**\n\n**Pourvoi : n° 87/2016/PC du 11/04/2016**\n\n**Affaire : Société Générale Burkina Faso**\n(Conseils : SCPA TRUST WAY, Avocats à la Cour)\ncontre\n**Société COPIAFAX-BURKINA**\n(Conseil : Maître Arno SAMPEBRE, Avocat à la Cour)\n\n**Arrêt N° 063/2020 du 27 février 2020**\n\nLa Cour Commune de Justice et d'Arbitrage (CCJA) de l'Organisation\npour l'Harmonisation en Afrique du Droit des Affaires (OHADA), Troisième\nchambre, a rendu l'arrêt suivant en son audience publique du 27 février 2020 où\nétaient présents :\n\n| | |\n| :--- | :--- |\n| Messieurs Robert SAFARI ZIHALIRWA, | Président, rapporteur |\n| Mahamadou BERTE, | Juge |\n| Sabiou MAMANE NAISSA, | Juge |\n| et Maître Louis Kouamé HOUNGBO, | Greffier ; |\n\nSur le pourvoi enregistré au greffe de la Cour de céans le 11 avril 2016\nsous le n°087/2016/PC et formé par Maître André K.OUEDRAOGO de la SCPA\nTRUST WAY, Avocats à la Cour, 15 BP 73 Ouagadougou 15, élisant domicile à\nla SCPA KEBET & MEITE, sis à Cocody Deux Plateaux les Vallons, rue des\nJardins, face GS4 SECURITE, villa n°418, 06 BP 1247 Abidjan 06, agissant au\nnom et pour le compte de la Société Générale Burkina Faso, en abrégé (SGBF),\ndont le siège est à Ouagadougou, 248 rue de l'Hôtel de ville, 01 BP 585\nOuagadougou 01, Burkina Faso, représentée par son directeur général monsieur\nJean Marc Joseph Mathurin MANCEL, dans la cause qui l'oppose à la Société\nCOPIAFAX-BURKINA, dont le siège social est sis à Ouagadougou, secteur 04,",
+  "stop_reason": "eos",
+  "tokens": 617,
+  "seconds": 34.12257784511894,
+  "image_sha256": "60b851024469c159d186e4e8a13ab443ec78dd8e7c81a0563be3e417a17121c3",
+  "fidelity_audit": {
+    "requires_review": false,
+    "flags": [],
+    "text_rewritten": false,
+    "image_grounding_verified": false,
+    "raw_characters": 1643,
+    "digit_glyph_counts": {
+      "latin": 82,
+      "arabic_indic": 0,
+      "eastern_arabic_indic": 0
+    }
+  },
+  "ground_truth_given_to_model": false
+}

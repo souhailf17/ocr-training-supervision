@@ -1,0 +1,4 @@
+# Preserve all bytes across platforms: the evidence inventory hashes every file.
+* -text
+*.png binary
+*.pdf binary

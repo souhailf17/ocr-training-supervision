@@ -1,0 +1,21 @@
+{
+  "id": "blank-ar-validation-00",
+  "text": "",
+  "stop_reason": "eos",
+  "tokens": 1,
+  "seconds": 0.11705200374126434,
+  "image_sha256": "ee4b966280b66d6910176bb480c04df750c94f0c27b93d8498850ef255e3d693",
+  "fidelity_audit": {
+    "requires_review": false,
+    "flags": [],
+    "text_rewritten": false,
+    "image_grounding_verified": false,
+    "raw_characters": 0,
+    "digit_glyph_counts": {
+      "latin": 0,
+      "arabic_indic": 0,
+      "eastern_arabic_indic": 0
+    }
+  },
+  "ground_truth_given_to_model": false
+}

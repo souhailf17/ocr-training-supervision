@@ -1,0 +1,65 @@
+{
+  "corpus": {
+    "schema": "ocr-markdown-v3-orig-aug1",
+    "target_format": "markdown-pipe-tables-v3",
+    "prefix": "dataset/processed/ocr-markdown-v3-orig-aug1/",
+    "state": "complete",
+    "source_complete_sha256": "89e75461a805005be53d18e772df31422f06a8fc9f3bbd32f636350cc5bd153b",
+    "hf_revision": "4cf05556e21bc54aca54a8b1f81ce172f3ef0477",
+    "configuration_sha256": "d4644585e51d57449da4352aa6940b74f728a5b01237eb3bee0344ec1722a526",
+    "counts": {
+      "samples_seen": 2038950,
+      "samples": 2038290,
+      "train": 1841540,
+      "pages_with_tables": 534066,
+      "tables": 687512,
+      "source_cells": 15624126,
+      "over_context_limit": 0,
+      "test": 97432,
+      "validation": 99318,
+      "historical_rejections": 660
+    },
+    "maximum_sequence": 8192,
+    "maximum_observed_sequence": 3587,
+    "training_ready": true,
+    "all_markdown_objects_readback_verified": true,
+    "selection": "all historically accepted originals + their aug1 only; no aug2/aug3",
+    "split_policy": "inherit v1 original/group split unchanged; validation and test are never trained",
+    "source_files_modified": false
+  },
+  "training_staged": {
+    "passed": true,
+    "corpus_complete_sha256": "f147d0bacc4af2a037895461b8358208ca037c7d0e9e1dfe429c3a5cef2873fa",
+    "source_complete_sha256": "89e75461a805005be53d18e772df31422f06a8fc9f3bbd32f636350cc5bd153b",
+    "parent_checkpoint": "/work/q35ocr-20260921-p560/training-fast-gpu4-m3-from12995-v1/checkpoint-14355.pt",
+    "parent_sha256": "e32116d77a324a8b970503e23440dbc83434a21b171a2ec3bcb87d14e6c503e6",
+    "parent_s3_key": "training-fast-gpu4-m3-from12995-v1/checkpoint-14355.pt",
+    "train_examples": 1841540,
+    "selected_pages": 2038290,
+    "all_206_manifest_sha256_verified": true,
+    "monitoring": {
+      "validation-tables": {
+        "path": "/work/q35ocr-20260921-p560/training-markdown-v3-orig-aug1/data/validation-tables.jsonl",
+        "sha256": "19282f36439746358b216becb7031cd61856e73bb68886e760dc387a62844841",
+        "samples": 128
+      },
+      "validation-control": {
+        "path": "/work/q35ocr-20260921-p560/training-markdown-v3-orig-aug1/data/validation-control.jsonl",
+        "sha256": "5dd622f61463c3cef76c2f0ca4b628126d09c0253f63ced706df65f4a3f1d4dd",
+        "samples": 128
+      },
+      "test-tables": {
+        "path": "/work/q35ocr-20260921-p560/training-markdown-v3-orig-aug1/data/test-tables.jsonl",
+        "sha256": "e9c02b61fc06c85ddb6d936f27954511b654b62fffeb8d8869463c989ade708a",
+        "samples": 16
+      },
+      "test-control": {
+        "path": "/work/q35ocr-20260921-p560/training-markdown-v3-orig-aug1/data/test-control.jsonl",
+        "sha256": "6fe535cb86f1034201ccc2b2c5666f0962cba17f52613b4dbb189fc1c87a9843",
+        "samples": 16
+      }
+    },
+    "context_limit": 8192,
+    "optimizer_and_cursor": "fresh for the changed targets and new complete pass; parent checkpoint is preserved"
+  }
+}

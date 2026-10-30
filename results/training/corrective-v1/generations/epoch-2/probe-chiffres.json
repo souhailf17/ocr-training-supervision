@@ -1,0 +1,21 @@
+{
+  "id": "probe-chiffres",
+  "text": "٠١٢٣٤٥٦٧٨٩\n٠١٢٣٤٥٦٧٨٩\n0123456789",
+  "stop_reason": "eos",
+  "tokens": 53,
+  "seconds": 2.979864677414298,
+  "image_sha256": "ecade72c96aa799d1929a88dbda103902bdb4e1311cbdb91c9d1152687997af5",
+  "fidelity_audit": {
+    "requires_review": false,
+    "flags": [],
+    "text_rewritten": false,
+    "image_grounding_verified": false,
+    "raw_characters": 32,
+    "digit_glyph_counts": {
+      "latin": 10,
+      "arabic_indic": 20,
+      "eastern_arabic_indic": 0
+    }
+  },
+  "ground_truth_given_to_model": false
+}

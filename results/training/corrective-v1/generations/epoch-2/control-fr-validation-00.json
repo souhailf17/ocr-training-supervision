@@ -1,0 +1,21 @@
+{
+  "id": "control-fr-validation-00",
+  "text": "# Relevé de mesures\n\nRéférence : FR-57518\n\nMontant : 5983,66 €\n\nÉchéance : 12/09/2026\n\nCaractères : œ, æ, ç, é, è, ê, É, À.\n\nCitation : « Déjà réglé » ; n° 5.\n\nTaux : 47 %\n\nMesures : ± ≤ ≥ × ÷ − ; m².\n\nSuite de chiffres : 95167428475439110818",
+  "stop_reason": "eos",
+  "tokens": 132,
+  "seconds": 7.4067149348556995,
+  "image_sha256": "cc65e958f158807f1aaeb719c7a2a4acdba49e9b6df33708f376d1ebf63f7cdd",
+  "fidelity_audit": {
+    "requires_review": false,
+    "flags": [],
+    "text_rewritten": false,
+    "image_grounding_verified": false,
+    "raw_characters": 242,
+    "digit_glyph_counts": {
+      "latin": 42,
+      "arabic_indic": 0,
+      "eastern_arabic_indic": 0
+    }
+  },
+  "ground_truth_given_to_model": false
+}
