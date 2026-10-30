@@ -1,14 +1,5 @@
 # Fine-tuning d’un modèle OCR multilingue
 
-**Projet d’apprentissage et d’expérimentation — dossier technique pour l’encadrant**  
-État documenté au **30 octobre 2026**.
-
-Bonjour,
-
-Nous souhaitons partager avec vous un projet de **fine-tuning d’un modèle d’OCR** que nous menons en parallèle, dans une démarche didactique, afin d’approfondir nos connaissances et de développer nos compétences pratiques. Ce dépôt rassemble notre code, les paramètres utilisés, les logs et les résultats, pour vous permettre de comprendre notre approche et de nous guider.
-
-Nous obtenons des transcriptions encourageantes sur certains documents, mais nous observons aussi des hallucinations, des répétitions et des erreurs de caractères. **Notre objectif est de comprendre ces défauts et de fiabiliser la transcription avant de considérer le modèle comme validé.**
-
 ## 1. Ce que nous cherchons à construire
 
 Nous voulons transformer une image de document en une transcription structurée en **Markdown**, en conservant le contenu visible : texte, titres, listes et tableaux. Les langues visées sont **l’arabe, le français et l’anglais**.
