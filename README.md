@@ -1,9 +1,5 @@
 # OCR multilingue — entraînement, diagnostics et comparaisons
 
-**Dossier de travail pour l’encadrant · état vérifié au 30 octobre 2026**
-
-Ce dépôt rassemble le code d’adaptation de **Qwen3.5-9B**, les configurations utilisées, les logs d’entraînement, les mesures et les comparatifs avec **Qwen de base, dots.mocr, Unlimited OCR 2 et Mistral OCR 4.1**. L’objectif est de comprendre ce qui fonctionne, les régressions et les expériences à décider ensemble.
-
 ## Commencer ici
 
 | Lecture | Contenu |
